@@ -10,7 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaynMaker.Cube", "src\RaynMaker.Cube\RaynMaker.Cube.csproj", "{21924904-92D0-4CAD-9DDE-F92A243DD3BF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaynMaker.Cube.Portal", "src\RaynMaker.Cube.Portal\RaynMaker.Cube.Portal.csproj", "{21924904-92D0-4CAD-9DDE-F92A243DD3BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
