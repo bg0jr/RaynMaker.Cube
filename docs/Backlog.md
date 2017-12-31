@@ -1,4 +1,18 @@
 
+- get familiar with [LiteDB](http://www.litedb.org/)
+
+- add first assets
+  - can we download content of indices somewhere?
+
+- add generic, simple data browser
+  - just specify "key-value" pairs and get lists back
+
+- integration RaynMaker.Import code to download data
+- add currency exchange serivce
+
+
+==> start all in c# portal project 
+    (refactor later)
 
 
 =================================================
@@ -8,6 +22,8 @@
 Being the landing zone of all relevant data by caching the financial world.
 
 # Entities
+
+- CurrencyExchange
 
 - Asset
   - isin
@@ -64,6 +80,6 @@ Being the landing zone of all relevant data by caching the financial world.
 - Query & Screening requires a human and a program interface.
 - Maintenance requires a governance, reporting and editing UI.
 
-==> focus is NOT on UI -> go for simple WPF UI
+==> focus is NOT on UI -> go for simple WPF UI (e.g. one tab per usecase section)
 ==> database will be LiteDB
 ==> use F# & actors for the backend 
