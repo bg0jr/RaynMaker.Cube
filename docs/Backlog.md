@@ -1,26 +1,69 @@
 
+
+
+=================================================
+
+# Mission
+
+Being the landing zone of all relevant data by caching the financial world.
+
+# Entities
+
+- Asset
+  - isin
+  - name
+
+- Type
+  - primary name
+  - secondary names
+
+- Origin
+  - name: where was this figure collected from
+  - location (URI): location of the origin (optional)
+  - timestamp: when collected from this site
+
+- Figure
+  - name (Type): semantical meeting of the data
+  - asset: the asset this data is related to
+  - origin (Origin)
+  - value: the value of the figure including currency 
+  - date: the data/value is related to
+
+- Fact (non-number data)
+  - name (Type): name of the fact
+  - asset: the asset this data is related to
+  - origin (Origin)
+  - value: value of the fact
+
 # Use cases
 
-1. As a user i want to collect new data easily
-   - i want to specify some initial criteria i am looking for
-   - the system provdes some "best guesses" from local DB and connected remote sources
-   - i am choosing and/or corrects data
-   - data is collected locally and stored structured with timestamp and origin
-2. As a user i want to search for data based on
-   - concrete assets (e.g. based on ISIN)
-   - generic screening parameters
-3. As a user i want to actively maintain the collected data
-   - i want to remove obsolete data
-   - i want to correct data
-   - i want to get notified about any potential inconsistencies
+## Collect
+
+- Given a new Isin (list of Isins) the system collects all facts and figures.
+- Given a known Isin (list of Isins) the syytem can update existing and missing facts & figures.
+
+## Query
+
+- Given an Isin all available data will be delivered.
+
+## Screening
+
+- Given various query parameters a list of matching assets is returned.
+
+## Maintenance
+
+- Given an fact/figure it can be deleted and manually edited.
+
+- Given a set of figures/facts for same asset and of same types inconsistencies are reported by the system.
+
 
 # Architecture
 
-- separate UI from "Cube service"
-- service uses max parallelization as IO bound
-  - actors?
-  - suave.io based REST service?
+- Collecting data requires a highly parallelized batch mode which gives feedback about failures.
+- Collecting data requires a guided mode which allows the user to assist/correct data collection logic.
+- Query & Screening requires a human and a program interface.
+- Maintenance requires a governance, reporting and editing UI.
 
-     
-     
-      
+==> focus is NOT on UI -> go for simple WPF UI
+==> database will be LiteDB
+==> use F# & actors for the backend 
