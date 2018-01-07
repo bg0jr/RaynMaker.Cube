@@ -1,19 +1,6 @@
 
-- get familiar with [LiteDB](http://www.litedb.org/)
-
-- add first assets
-  - can we download content of indices somewhere?
-
-- add generic, simple data browser
-  - just specify "key-value" pairs and get lists back
-
-- integration RaynMaker.Import code to download data
-- add currency exchange serivce
-
-
-==> start all in c# portal project 
-    (refactor later)
-
+- document mission and business goals in BDD style
+- start modelling initial domain model and DDD style
 
 =================================================
 
@@ -53,6 +40,10 @@ Being the landing zone of all relevant data by caching the financial world.
 
 # Use cases
 
+NO high sofisticated UIs!! just basic support.
+provide API to build more sofisticated projects on top
+
+
 ## Collect
 
 - Given a new Isin (list of Isins) the system collects all facts and figures.
@@ -83,3 +74,24 @@ Being the landing zone of all relevant data by caching the financial world.
 ==> focus is NOT on UI -> go for simple WPF UI (e.g. one tab per usecase section)
 ==> database will be LiteDB
 ==> use F# & actors for the backend 
+
+=================================================
+
+- get familiar with [LiteDB](http://www.litedb.org/)
+
+- add first assets
+  - can we download content of indices somewhere?
+
+- add generic, simple data browser
+  - just specify "key-value" pairs and get lists back
+
+- integration RaynMaker.Import code to download data
+- add currency exchange serivce
+
+
+==> start all in c# portal project 
+    (refactor later)
+
+
+
+
