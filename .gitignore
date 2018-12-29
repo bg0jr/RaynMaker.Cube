@@ -1,8 +1,10 @@
 **/bin/**
 **/obj/**
+**/node_modules/**
 .vs/**
 /*.suo
 build/.fake/
 /TestResult.xml
 /TestResults/**
 /RaynMaker.Cube.gc.*
+/packages/**
