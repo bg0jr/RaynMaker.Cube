@@ -27,7 +27,8 @@
         this.renderChart({
           labels: this.labels,
           datasets: [{
-            data: this.chartData
+            data: this.chartData,
+            backgroundColor: [ 'blue' ]
           }]
         }, { responsive: false, maintainAspectRatio: false })
       }

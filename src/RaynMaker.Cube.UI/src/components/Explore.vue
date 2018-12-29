@@ -30,7 +30,7 @@
       'pie-chart': PieChart
     },
     created: function () {
-      this.get(this, '/api/explore', {}, function (that, response) {
+      this.get(this, '/api/Explore', {}, function (that, response) {
         that.diversification.data = response.data
         that.diversification.labels = response.labels
       })

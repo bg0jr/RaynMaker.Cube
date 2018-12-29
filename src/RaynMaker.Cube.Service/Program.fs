@@ -48,7 +48,7 @@ let start storeHome =
                     path "/" >=> redirect "/Client/index.html"
                     pathScan "/Client/%s" (fun f -> Files.file (sprintf "%s/Client/%s" home f))
                     pathScan "/static/%s" (fun f -> Files.file (sprintf "%s/Client/static/%s" home f))
-                    path "/api/explore" >=> warbler (fun _ -> Controllers.explore storeHome)
+                    path "/api/Explore" >=> warbler (fun _ -> Controllers.explore storeHome)
                     NOT_FOUND "Resource not found."
                 ]
         ]
@@ -66,11 +66,13 @@ let stop instance =
     services.suaveCts.Cancel()
 
 let getStoreFromCommandLine argv =
+    let home = getHome()
+
     argv |> printf "Cmd line: %A"
 
     match argv with
     | [| path |] -> path 
-    | _ -> failwith "No store home given"
+    | _ -> Path.Combine(home, "..", "..", "docs", "Samples")
     |> Path.GetFullPath
 
 [<EntryPoint>]

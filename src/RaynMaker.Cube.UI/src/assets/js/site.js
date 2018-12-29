@@ -8,7 +8,7 @@ export function formatValue (value) {
 export const webApi = {
   methods: {
     get: (that, url, data, onDone) => {
-      let baseUrl = process.env.NODE_ENV === 'production' ? '' : 'http://localhost:2525'
+      let baseUrl = process.env.NODE_ENV === 'production' ? '' : 'http://localhost:25251'
 
       $.ajax({
         url: baseUrl + url,
