@@ -1,10 +1,10 @@
 
 <script>
-  import { Pie } from 'vue-chartjs'
+  import { Bar } from 'vue-chartjs'
 
   export default {
-    extends: Pie,
-    name: 'pie-chart',
+    extends: Bar,
+    name: 'bar-chart',
     props: {
       data: Array,
       labels: Array
@@ -28,9 +28,19 @@
           labels: this.labels,
           datasets: [{
             data: this.chartData,
-            backgroundColor: [ 'blue' ]
+            backgroundColor: 'green'
           }]
-        }, { responsive: false, maintainAspectRatio: false })
+        }, {
+          responsive: false,
+          maintainAspectRatio: false,
+          scales: {
+            yAxes: [{
+              ticks: {
+                beginAtZero: true
+              }
+            }]
+          }
+        })
       }
     }
   }

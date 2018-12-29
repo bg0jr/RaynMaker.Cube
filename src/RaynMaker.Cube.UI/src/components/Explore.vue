@@ -7,32 +7,32 @@
       <input name="query" v-model="filter">
     </form>
 
-    <pie-chart :width="500" :height="500" :data="diversification.data" :labels="diversification.labels"></pie-chart>
+    <bar-chart :width="400" :height="400" :data="dividend.data" :labels="dividend.labels"></bar-chart>
   </div>
 </template>
 
 <script>
   import * as my from '../assets/js/site.js'
-  import PieChart from '@/components/PieChart'
+  import BarChart from '@/components/BarChart'
 
   export default {
     name: 'Explore',
     data () {
       return {
         filter: '',
-        diversification: {
+        dividend: {
           data: null,
           labels: null
         }
       }
     },
     components: {
-      'pie-chart': PieChart
+      'bar-chart': BarChart
     },
     created: function () {
       this.get(this, '/api/Explore', {}, function (that, response) {
-        that.diversification.data = response.data
-        that.diversification.labels = response.labels
+        that.dividend.data = response.data
+        that.dividend.labels = response.labels
       })
     },
     mixins: [ my.webApi ]

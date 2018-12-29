@@ -10,13 +10,14 @@
   "profiles": {
     "IIS Express": {
       "commandName": "IISExpress",
-      "launchBrowser": true,
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
     "RaynMaker.Cube.UI": {
-      "commandName": "Project",
+      "commandName": "Executable",
+      "executablePath": "npm",
+      "commandLineArgs": "run dev",
       "launchBrowser": true,
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"

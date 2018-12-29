@@ -12,6 +12,8 @@ open RaynMaker.Cube.Frameworks
 open System.Diagnostics
 open Suave.RequestErrors
 open RaynMaker.Cube.Gateways
+open Suave.Writers
+open Suave.Successful
 
 type internal Services = {
     suaveCts : CancellationTokenSource
@@ -42,8 +44,13 @@ let start storeHome =
     let app = 
         let log = request (fun r -> printfn "%s" r.path; succeed)
 
+        let setCORSHeaders =
+            addHeader  "Access-Control-Allow-Origin" "*" 
+            >=> addHeader "Access-Control-Allow-Headers" "content-type" 
+            >=> addHeader "Access-Control-Allow-Methods" "GET,POST,PUT" 
+
         choose [ 
-            GET >=> log >=> choose
+            GET >=> log >=> setCORSHeaders >=> choose
                 [
                     path "/" >=> redirect "/Client/index.html"
                     pathScan "/Client/%s" (fun f -> Files.file (sprintf "%s/Client/%s" home f))
