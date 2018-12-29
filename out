@@ -1,0 +1,2335 @@
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\msbuild.exe /t:rebuild /v:diag src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj
+Build started 29.12.2018 18:26:11.
+Environment at start of build:
+ALLUSERSPROFILE = C:\ProgramData
+APPDATA = C:\Users\ssmosett\AppData\Roaming
+APPLOGSC = C:\WINDOWS\Logs\ManagedPC\Applications
+AppLogsU = C:\Users\ssmosett\AppData\Local\ManagedPC\Applications
+BRB = C:\Program Files\HP\Sure Click\bin
+BRS = C:\Program Files\HP\Sure Click\servers
+CommandPromptType = Native
+CommonProgramFiles = C:\Program Files (x86)\Common Files
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+CommonProgramW6432 = C:\Program Files\Common Files
+COMPUTERNAME = MD1YJAPC
+ComSpec = C:\WINDOWS\system32\cmd.exe
+DefaultScreensaver = scrnsave.scr
+Desktop = C:\Users\ssmosett\Desktop
+DevEnvDir = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\
+ExtensionSdkDir = C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs
+Framework40Version = v4.0
+FrameworkDir = C:\Windows\Microsoft.NET\Framework\
+FrameworkDir32 = C:\Windows\Microsoft.NET\Framework\
+FrameworkVersion = v4.0.30319
+FrameworkVersion32 = v4.0.30319
+FSHARPINSTALLDIR = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\FSharp\
+F_IA32_REDIST11 = C:\Program Files (x86)\Common Files\Intel\Shared Files\fortran\
+HOMEDRIVE = C:
+HOMEPATH = \Users\ssmosett
+INCLUDE = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\ATLMFC\include;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\include;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt
+INTEL_DEV_REDIST = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\
+IWBPath = C:\Program Files (x86)\SAP\FrontEnd\iwb
+LIB = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\ATLMFC\lib\x86;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\lib\x86;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\lib\um\x86;C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\ucrt\x86;C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x86;
+LIBPATH = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\ATLMFC\lib\x86;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\lib\x86;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\lib\x86\store\references;C:\Program Files (x86)\Windows Kits\10\UnionMetadata\10.0.17763.0;C:\Program Files (x86)\Windows Kits\10\References\10.0.17763.0;C:\Windows\Microsoft.NET\Framework\v4.0.30319;
+LOCALAPPDATA = C:\Users\ssmosett\AppData\Local
+LOGONSERVER = \\DEMCHAHC99A
+MSBuildLoadMicrosoftTargetsReadOnly = true
+NETFXSDKDir = C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\
+NetLogon = \\ad005.onehc.net\NETLOGON\RA106\Win10
+NetlogonDWP = \\ad005.onehc.net\NETLOGON\RA106\Win10
+NUMBER_OF_PROCESSORS = 4
+OneDrive = C:\Users\ssmosett\OneDrive
+OS = Windows_NT
+Path = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCPackages;C:\Program Files (x86)\Microsoft SDKs\TypeScript\3.1;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Roslyn;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Team Tools\Performance Tools;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools\;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\FSharp\;C:\Program Files (x86)\Windows Kits\10\bin\10.0.17763.0\x86;C:\Program Files (x86)\Windows Kits\10\bin\x86;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\\MSBuild\15.0\bin;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\Tools\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\mpirt;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Files\fortran\bin\ia32;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Java\jre1.8.0_181\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\nodejs\;C:\Users\ssmosett\AppData\Local\Microsoft\WindowsApps;C:\Users\ssmosett\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PLMVIS_82_LIBPATH = C:\Program Files (x86)\SAP\FrontEnd\SAPgui\Program
+PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_ARCHITEW6432 = AMD64
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 9, GenuineIntel
+PROCESSOR_LEVEL = 6
+PROCESSOR_REVISION = 8e09
+ProgramData = C:\ProgramData
+ProgramFiles = C:\Program Files (x86)
+ProgramFiles(x86) = C:\Program Files (x86)
+ProgramW6432 = C:\Program Files
+PROMPT = $P$G
+PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC = C:\Users\Public
+saplogon_ini_file = C:\Users\ssmosett\AppData\Roaming\SAP\saplogon.ini
+SESSIONNAME = Console
+SiteServer = webmail-emea.siemens.net
+SNC_LIB = C:\Program Files (x86)\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll
+SNC_LIB_64 = C:\Program Files\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll
+SSF_LIBRARY_PATH = C:\Program Files (x86)\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll
+SSF_LIBRARY_PATH_64 = C:\Program Files\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll
+SystemDrive = C:
+SystemRoot = C:\WINDOWS
+TEMP = C:\Users\ssmosett\AppData\Local\Temp
+TMP = C:\Users\ssmosett\AppData\Local\Temp
+UATDATA = C:\WINDOWS\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+UCRTVersion = 10.0.17763.0
+UniversalCRTSdkDir = C:\Program Files (x86)\Windows Kits\10\
+USERDNSDOMAIN = AD005.ONEHC.NET
+USERDOMAIN = AD005
+USERDOMAIN_ROAMINGPROFILE = AD005
+USERNAME = ssmosett
+USERPROFILE = C:\Users\ssmosett
+VCIDEInstallDir = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\
+VCINSTALLDIR = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\
+VCToolsInstallDir = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\
+VCToolsRedistDir = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Redist\MSVC\14.16.27012\
+VCToolsVersion = 14.16.27023
+VisualStudioVersion = 15.0
+VS150COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\Tools\
+VSCMD_ARG_app_plat = Desktop
+VSCMD_ARG_HOST_ARCH = x86
+VSCMD_ARG_TGT_ARCH = x86
+VSCMD_VER = 15.9.4
+VSINSTALLDIR = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\
+windir = C:\WINDOWS
+WindowsLibPath = C:\Program Files (x86)\Windows Kits\10\UnionMetadata\10.0.17763.0;C:\Program Files (x86)\Windows Kits\10\References\10.0.17763.0
+WindowsSdkBinPath = C:\Program Files (x86)\Windows Kits\10\bin\
+WindowsSdkDir = C:\Program Files (x86)\Windows Kits\10\
+WindowsSDKLibVersion = 10.0.17763.0\
+WindowsSdkVerBinPath = C:\Program Files (x86)\Windows Kits\10\bin\10.0.17763.0\
+WindowsSDKVersion = 10.0.17763.0\
+WindowsSDK_ExecutablePath_x64 = C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\x64\
+WindowsSDK_ExecutablePath_x86 = C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\
+__DOTNET_ADD_32BIT = 1
+__DOTNET_PREFERRED_BITNESS = 32
+__VSCMD_PREINIT_PATH = C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\mpirt;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Files\fortran\bin\ia32;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Java\jre1.8.0_181\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\nodejs\;C:\Users\ssmosett\AppData\Local\Microsoft\WindowsApps;C:\Users\ssmosett\AppData\Roaming\npm
+
+Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+Trying to import C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\$(MSBuildToolsVersion)\Microsoft.Common.props using extensions path C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild
+Property reassignment: $(MSBuildProjectExtensionsPath)="C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\" (previous value: "obj\") at C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Microsoft.Common.props (60,5)
+Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+Trying to import C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\$(MSBuildToolsVersion)\Imports\Microsoft.Common.props\ImportBefore\* using extensions path C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild
+Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+Property reassignment: $(MSBuildAllProjects)=";C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\RaynMaker.Cube.Service.fsproj.nuget.g.props;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\FSharp\Microsoft.FSharp.targets" (previous value: ";C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\RaynMaker.Cube.Service.fsproj.nuget.g.props") at C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\FSharp\Microsoft.FSharp.targets (21,9)
+Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+Property reassignment: $(MSBuildAllProjects)=";C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\RaynMaker.Cube.Service.fsproj.nuget.g.props;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\FSharp\Microsoft.FSharp.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.props" (previous value: ";C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\RaynMaker.Cube.Service.fsproj.nuget.g.props;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\FSharp\Microsoft.FSharp.targets") at C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.props (29,5)
+Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+Property reassignment: $(_DebugSymbolsProduced)="true" (previous value: "false") at C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets (148,5)
+Property reassignment: $(_DocumentationFileProduced)="false" (previous value: "true") at C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets (157,5)
+Property reassignment: $(ProcessorArchitecture)="msil" (previous value: "AnyCPU") at C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets (472,5)
+Property reassignment: $(DelaySign)="" (previous value: "false") at C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets (525,5)
+Property reassignment: $(MSBuildAllProjects)=";C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\RaynMaker.Cube.Service.fsproj.nuget.g.props;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\FSharp\Microsoft.FSharp.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.props;C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets" (previous value: ";C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\RaynMaker.Cube.Service.fsproj.nuget.g.props;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\FSharp\Microsoft.FSharp.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.props") at C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets (536,5)
+Property reassignment: $(_SGenGenerateSerializationAssembliesConfig)="Auto" (previous value: "") at C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets (3500,5)
+Property reassignment: $(_SGenGenerateSerializationAssembliesConfig)="Off" (previous value: "Auto") at C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets (3501,5)
+Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+Property reassignment: $(MSBuildAllProjects)=";C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\RaynMaker.Cube.Service.fsproj.nuget.g.props;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\FSharp\Microsoft.FSharp.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.props;C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.targets" (previous value: ";C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\RaynMaker.Cube.Service.fsproj.nuget.g.props;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\FSharp\Microsoft.FSharp.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.props;C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets") at C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.targets (29,6)
+Property reassignment: $(ResolveReferencesDependsOn)="
+      
+      BeforeResolveReferences;
+      AssignProjectConfiguration;
+      ResolveProjectReferences;
+      FindInvalidProjectReferences;
+      ResolveNativeReferences;
+      ResolveAssemblyReferences;
+      GenerateBindingRedirects;
+      ResolveComReferences;
+      AfterResolveReferences
+    ;
+      ImplicitlyExpandDesignTimeFacades
+    " (previous value: "
+      BeforeResolveReferences;
+      AssignProjectConfiguration;
+      ResolveProjectReferences;
+      FindInvalidProjectReferences;
+      ResolveNativeReferences;
+      ResolveAssemblyReferences;
+      GenerateBindingRedirects;
+      ResolveComReferences;
+      AfterResolveReferences
+    ") at C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.targets (79,5)
+Property reassignment: $(PrepareResourceNamesDependsOn)="
+                    AssignWinFXEmbeddedResource;
+                    
+      AssignTargetPaths;
+      SplitResourcesByCulture;
+      CreateManifestResourceNames;
+      CreateCustomManifestResourceNames
+    
+      " (previous value: "
+      AssignTargetPaths;
+      SplitResourcesByCulture;
+      CreateManifestResourceNames;
+      CreateCustomManifestResourceNames
+    ") at C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets (97,7)
+Property reassignment: $(PrepareResourcesDependsOn)="
+                MarkupCompilePass1;
+                AfterMarkupCompilePass1;
+                MarkupCompilePass2ForMainAssembly;
+                FileClassification;
+                MainResourcesGeneration;
+                
+      PrepareResourceNames;
+      ResGen;
+      CompileLicxFiles
+    
+      " (previous value: "
+      PrepareResourceNames;
+      ResGen;
+      CompileLicxFiles
+    ") at C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets (108,7)
+Property reassignment: $(CompileDependsOn)="
+        
+      ResolveReferences;
+      ResolveKeySource;
+      SetWin32ManifestProperties;
+      FindReferenceAssembliesForReferences;
+      _GenerateCompileInputs;
+      BeforeCompile;
+      _TimeStampBeforeCompile;
+      _GenerateCompileDependencyCache;
+      CoreCompile;
+      _TimeStampAfterCompile;
+      AfterCompile;
+    ;
+        _AfterCompileWinFXInternal
+    " (previous value: "
+      ResolveReferences;
+      ResolveKeySource;
+      SetWin32ManifestProperties;
+      FindReferenceAssembliesForReferences;
+      _GenerateCompileInputs;
+      BeforeCompile;
+      _TimeStampBeforeCompile;
+      _GenerateCompileDependencyCache;
+      CoreCompile;
+      _TimeStampAfterCompile;
+      AfterCompile;
+    ") at C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets (184,5)
+Property reassignment: $(PublishBuildDependsOn)="
+            BuildOnlySettings;
+            PrepareForBuild;
+            ResolveReferences;
+            PrepareResources;
+            ResolveKeySource;
+            PrepareResourcesForSatelliteAssemblies;
+            GenerateSerializationAssemblies;
+            CreateSatelliteAssemblies;
+        " (previous value: "
+      BuildOnlySettings;
+      PrepareForBuild;
+      ResolveReferences;
+      PrepareResources;
+      ResolveKeySource;
+      GenerateSerializationAssemblies;
+      CreateSatelliteAssemblies;
+    ") at C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets (813,9)
+Property reassignment: $(BuildDependsOn)="
+      EntityDeploy;
+      
+      BeforeBuild;
+      CoreBuild;
+      AfterBuild
+    
+    " (previous value: "
+      BeforeBuild;
+      CoreBuild;
+      AfterBuild
+    ") at C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Data.Entity.targets (35,5)
+Property reassignment: $(CleanDependsOn)="
+      
+      BeforeClean;
+      UnmanagedUnregistration;
+      CoreClean;
+      CleanReferencedProjects;
+      CleanPublishFolder;
+      AfterClean
+    ;
+      EntityClean;
+    " (previous value: "
+      BeforeClean;
+      UnmanagedUnregistration;
+      CoreClean;
+      CleanReferencedProjects;
+      CleanPublishFolder;
+      AfterClean
+    ") at C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Data.Entity.targets (42,5)
+Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+Property reassignment: $(PrepareResourcesDependsOn)="
+      XamlMarkupCompilePass1;
+      XamlMarkupCompilePass2;
+      
+                MarkupCompilePass1;
+                AfterMarkupCompilePass1;
+                MarkupCompilePass2ForMainAssembly;
+                FileClassification;
+                MainResourcesGeneration;
+                
+      PrepareResourceNames;
+      ResGen;
+      CompileLicxFiles
+    
+       
+    " (previous value: "
+                MarkupCompilePass1;
+                AfterMarkupCompilePass1;
+                MarkupCompilePass2ForMainAssembly;
+                FileClassification;
+                MainResourcesGeneration;
+                
+      PrepareResourceNames;
+      ResGen;
+      CompileLicxFiles
+    
+      ") at C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets (35,5)
+Property reassignment: $(MSBuildAllProjects)=";C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\RaynMaker.Cube.Service.fsproj.nuget.g.props;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\FSharp\Microsoft.FSharp.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.props;C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Xaml.targets" (previous value: ";C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\RaynMaker.Cube.Service.fsproj.nuget.g.props;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\FSharp\Microsoft.FSharp.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.props;C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.targets") at C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets (48,5)
+Property reassignment: $(PrepareResourcesDependsOn)="
+      ValidationExtension;
+      ExpressionBuildExtension;
+      
+      XamlMarkupCompilePass1;
+      XamlMarkupCompilePass2;
+      
+                MarkupCompilePass1;
+                AfterMarkupCompilePass1;
+                MarkupCompilePass2ForMainAssembly;
+                FileClassification;
+                MainResourcesGeneration;
+                
+      PrepareResourceNames;
+      ResGen;
+      CompileLicxFiles
+    
+       
+    
+    " (previous value: "
+      XamlMarkupCompilePass1;
+      XamlMarkupCompilePass2;
+      
+                MarkupCompilePass1;
+                AfterMarkupCompilePass1;
+                MarkupCompilePass2ForMainAssembly;
+                FileClassification;
+                MainResourcesGeneration;
+                
+      PrepareResourceNames;
+      ResGen;
+      CompileLicxFiles
+    
+       
+    ") at C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets (16,5)
+Property reassignment: $(ResolveReferencesDependsOn)="
+      
+      
+      BeforeResolveReferences;
+      AssignProjectConfiguration;
+      ResolveProjectReferences;
+      FindInvalidProjectReferences;
+      ResolveNativeReferences;
+      ResolveAssemblyReferences;
+      GenerateBindingRedirects;
+      ResolveComReferences;
+      AfterResolveReferences
+    ;
+      ImplicitlyExpandDesignTimeFacades
+    ;
+      ResolveTestReferences
+    " (previous value: "
+      
+      BeforeResolveReferences;
+      AssignProjectConfiguration;
+      ResolveProjectReferences;
+      FindInvalidProjectReferences;
+      ResolveNativeReferences;
+      ResolveAssemblyReferences;
+      GenerateBindingRedirects;
+      ResolveComReferences;
+      AfterResolveReferences
+    ;
+      ImplicitlyExpandDesignTimeFacades
+    ") at C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\VisualStudio\v15.0\TeamTest\Microsoft.TeamTest.targets (4,5)
+Property reassignment: $(MSBuildAllProjects)=";C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\RaynMaker.Cube.Service.fsproj.nuget.g.props;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\FSharp\Microsoft.FSharp.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.props;C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Xaml.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets" (previous value: ";C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\RaynMaker.Cube.Service.fsproj.nuget.g.props;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\FSharp\Microsoft.FSharp.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.props;C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Xaml.targets") at C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets (45,5)
+Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+Trying to import C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\$(MSBuildToolsVersion)\Microsoft.Common.targets\ImportAfter\* using extensions path C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild
+Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+Trying to import C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Sdks\Microsoft.Docker.Sdk\build\Microsoft.Docker.targets using extensions path C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild
+Property reassignment: $(MSBuildAllProjects)=";C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\RaynMaker.Cube.Service.fsproj.nuget.g.props;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\FSharp\Microsoft.FSharp.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.props;C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Xaml.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Microsoft.Common.targets\ImportAfter\Microsoft.NET.Build.Extensions.targets" (previous value: ";C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\RaynMaker.Cube.Service.fsproj.nuget.g.props;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\FSharp\Microsoft.FSharp.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.props;C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Xaml.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets") at C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Microsoft.Common.targets\ImportAfter\Microsoft.NET.Build.Extensions.targets (14,5)
+Property reassignment: $(MSBuildAllProjects)=";C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\RaynMaker.Cube.Service.fsproj.nuget.g.props;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\FSharp\Microsoft.FSharp.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.props;C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Xaml.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Microsoft.Common.targets\ImportAfter\Microsoft.NET.Build.Extensions.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.targets" (previous value: ";C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\RaynMaker.Cube.Service.fsproj.nuget.g.props;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\FSharp\Microsoft.FSharp.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.props;C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Xaml.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Microsoft.Common.targets\ImportAfter\Microsoft.NET.Build.Extensions.targets") at C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.targets (15,5)
+Property reassignment: $(MSBuildAllProjects)=";C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\RaynMaker.Cube.Service.fsproj.nuget.g.props;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\FSharp\Microsoft.FSharp.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.props;C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Xaml.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Microsoft.Common.targets\ImportAfter\Microsoft.NET.Build.Extensions.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.NETFramework.targets" (previous value: ";C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\RaynMaker.Cube.Service.fsproj.nuget.g.props;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\FSharp\Microsoft.FSharp.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.props;C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Xaml.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Microsoft.Common.targets\ImportAfter\Microsoft.NET.Build.Extensions.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.targets") at C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.NETFramework.targets (15,5)
+Property reassignment: $(MSBuildAllProjects)=";C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\RaynMaker.Cube.Service.fsproj.nuget.g.props;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\FSharp\Microsoft.FSharp.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.props;C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Xaml.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Microsoft.Common.targets\ImportAfter\Microsoft.NET.Build.Extensions.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.NETFramework.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets" (previous value: ";C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\RaynMaker.Cube.Service.fsproj.nuget.g.props;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\FSharp\Microsoft.FSharp.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.props;C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Xaml.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Microsoft.Common.targets\ImportAfter\Microsoft.NET.Build.Extensions.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.NETFramework.targets") at C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets (15,5)
+Property reassignment: $(MSBuildAllProjects)=";C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\RaynMaker.Cube.Service.fsproj.nuget.g.props;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\FSharp\Microsoft.FSharp.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.props;C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Xaml.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Microsoft.Common.targets\ImportAfter\Microsoft.NET.Build.Extensions.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.NETFramework.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.DefaultPackageConflictOverrides.targets" (previous value: ";C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\RaynMaker.Cube.Service.fsproj.nuget.g.props;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\FSharp\Microsoft.FSharp.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.props;C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Xaml.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Microsoft.Common.targets\ImportAfter\Microsoft.NET.Build.Extensions.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.NETFramework.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets") at C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.DefaultPackageConflictOverrides.targets (15,5)
+Property reassignment: $(MSBuildAllProjects)=";C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\RaynMaker.Cube.Service.fsproj.nuget.g.props;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\FSharp\Microsoft.FSharp.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.props;C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Xaml.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Microsoft.Common.targets\ImportAfter\Microsoft.NET.Build.Extensions.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.NETFramework.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.DefaultPackageConflictOverrides.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\NuGet\15.0\Microsoft.NuGet.targets" (previous value: ";C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\RaynMaker.Cube.Service.fsproj.nuget.g.props;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\FSharp\Microsoft.FSharp.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.props;C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Xaml.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Microsoft.Common.targets\ImportAfter\Microsoft.NET.Build.Extensions.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.NETFramework.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.DefaultPackageConflictOverrides.targets") at C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\NuGet\15.0\Microsoft.NuGet.targets (67,5)
+Property reassignment: $(ResolveAssemblyReferencesDependsOn)="
+      ResolveProjectReferences;
+      FindInvalidProjectReferences;
+      GetFrameworkPaths;
+      GetReferenceAssemblyPaths;
+      PrepareForBuild;
+      ResolveSDKReferences;
+      ExpandSDKReferences;
+    ;ResolveNuGetPackageAssets" (previous value: "
+      ResolveProjectReferences;
+      FindInvalidProjectReferences;
+      GetFrameworkPaths;
+      GetReferenceAssemblyPaths;
+      PrepareForBuild;
+      ResolveSDKReferences;
+      ExpandSDKReferences;
+    ") at C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\NuGet\15.0\Microsoft.NuGet.targets (173,5)
+Property reassignment: $(PrepareResourcesDependsOn)="ResolveNuGetPackageAssets;
+      ValidationExtension;
+      ExpressionBuildExtension;
+      
+      XamlMarkupCompilePass1;
+      XamlMarkupCompilePass2;
+      
+                MarkupCompilePass1;
+                AfterMarkupCompilePass1;
+                MarkupCompilePass2ForMainAssembly;
+                FileClassification;
+                MainResourcesGeneration;
+                
+      PrepareResourceNames;
+      ResGen;
+      CompileLicxFiles
+    
+       
+    
+    " (previous value: "
+      ValidationExtension;
+      ExpressionBuildExtension;
+      
+      XamlMarkupCompilePass1;
+      XamlMarkupCompilePass2;
+      
+                MarkupCompilePass1;
+                AfterMarkupCompilePass1;
+                MarkupCompilePass2ForMainAssembly;
+                FileClassification;
+                MainResourcesGeneration;
+                
+      PrepareResourceNames;
+      ResGen;
+      CompileLicxFiles
+    
+       
+    
+    ") at C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\NuGet\15.0\Microsoft.NuGet.targets (174,5)
+Property reassignment: $(_HandlePackageFileConflictsAfter)="ResolveNuGetPackageAssets;ResolveNuGetPackageAssetsNonAOT" (previous value: "ResolveNuGetPackageAssets") at C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\NuGet\15.0\Microsoft.NuGet.targets (255,5)
+Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+Property reassignment: $(MSBuildAllProjects)=";C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\RaynMaker.Cube.Service.fsproj.nuget.g.props;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\FSharp\Microsoft.FSharp.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.props;C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Xaml.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Microsoft.Common.targets\ImportAfter\Microsoft.NET.Build.Extensions.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.NETFramework.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.DefaultPackageConflictOverrides.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\NuGet\15.0\Microsoft.NuGet.targets;C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\RaynMaker.Cube.Service.fsproj.nuget.g.targets" (previous value: ";C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\RaynMaker.Cube.Service.fsproj.nuget.g.props;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\FSharp\Microsoft.FSharp.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.props;C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Xaml.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Microsoft.Common.targets\ImportAfter\Microsoft.NET.Build.Extensions.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.NETFramework.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.DefaultPackageConflictOverrides.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\NuGet\15.0\Microsoft.NuGet.targets") at C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\RaynMaker.Cube.Service.fsproj.nuget.g.targets (4,5)
+Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+Overriding target "GetFrameworkPaths" in project "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets" with target "GetFrameworkPaths" from project "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.targets".
+Overriding target "SatelliteDllsProjectOutputGroup" in project "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets" with target "SatelliteDllsProjectOutputGroup" from project "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets".
+Overriding target "_GenerateCompileDependencyCache" in project "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets" with target "_GenerateCompileDependencyCache" from project "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\FSharp\Microsoft.FSharp.targets".
+Overriding target "GenerateTargetFrameworkMonikerAttribute" in project "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets" with target "GenerateTargetFrameworkMonikerAttribute" from project "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\FSharp\Microsoft.FSharp.targets".
+The target "ClCompile" listed in an AfterTargets attribute at "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\VisualStudio\v15.0\CodeAnalysis\Microsoft.CodeAnalysis.targets (428,11)" does not exist in the project, and will be ignored.
+Project "C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj" on node 1 (rebuild target(s)).
+Initial Properties:
+__DOTNET_ADD_32BIT = 1
+__DOTNET_PREFERRED_BITNESS = 32
+__VSCMD_PREINIT_PATH = C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\mpirt;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Files\fortran\bin\ia32;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Java\jre1.8.0_181\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\nodejs\;C:\Users\ssmosett\AppData\Local\Microsoft\WindowsApps;C:\Users\ssmosett\AppData\Roaming\npm
+_AfterCompileWinFXInternalDependsOn = 
+        PrepareResourcesForSatelliteAssemblies;
+        MergeLocalizationDirectives;
+        AfterCompileWinFX
+    
+_CompileTargetNameForLocalType = _CompileTemporaryAssembly
+_DebugSymbolsProduced = true
+_DeploymentApplicationManifestIdentity = RaynMaker.Cube.Service.exe
+_DeploymentBuiltUpdateInterval = 0
+_DeploymentBuiltUpdateIntervalUnits = Days
+_DeploymentDeployManifestIdentity = RaynMaker.Cube.Service.application
+_DeploymentFileMappingExtension = 
+_DeploymentPublishableProjectDefault = true
+_DeploymentTargetApplicationManifestFileName = RaynMaker.Cube.Service.exe.manifest
+_DeploymentUrl = 
+_DirectoryBuildPropsBasePath = 
+_DirectoryBuildPropsFile = Directory.Build.props
+_DirectoryBuildTargetsBasePath = 
+_DirectoryBuildTargetsFile = Directory.Build.targets
+_DocumentationFileProduced = false
+_GenerateBindingRedirectsIntermediateAppConfig = obj\Debug\RaynMaker.Cube.Service.exe.config
+_GenerateRestoreGraphProjectEntryInputProperties = ExcludeRestorePackageImports=true
+_GetChildProjectCopyToOutputDirectoryItems = true
+_HandlePackageFileConflictsAfter = ResolveNuGetPackageAssets;ResolveNuGetPackageAssetsNonAOT
+_HandlePackageFileConflictsBefore = ResolveAssemblyReferences
+_InitialBaseIntermediateOutputPath = obj\
+_InitialMSBuildProjectExtensionsPath = C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\
+_NuGetRuntimeIdentifierWithoutAot = win
+_OriginalConfiguration = Debug
+_OriginalPlatform = AnyCPU
+_ProjectDefaultTargets = Build
+_RequireMCPass2ForMainAssembly = false
+_RequireMCPass2ForSatelliteAssemblyOnly = false
+_ResolveReferenceDependencies = false
+_ResourceNameInMainAssembly = RaynMaker.Cube.Service.g.resources
+_SGenDllCreated = false
+_SGenDllName = RaynMaker.Cube.Service.XmlSerializers.dll
+_SGenGenerateSerializationAssembliesConfig = Off
+_TargetFrameworkVersionWithoutV = 4.7.2
+Actual32Bit = true
+AddAdditionalExplicitAssemblyReferences = true
+AddAppConfigToBuildOutputs = true
+AdditionalExplicitAssemblyReferences = System.Core;
+AllowedReferenceAssemblyFileExtensions = 
+      .winmd;
+      .dll;
+      .exe
+    
+AllowedReferenceRelatedFileExtensions = 
+      .pdb;
+      .xml;
+      .pri;
+      .dll.config;
+      .exe.config
+    
+ALLUSERSPROFILE = C:\ProgramData
+AlwaysCompileMarkupFilesInSeparateDomain = true
+AndroidTargetsPath = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\MDD\Android\V150\
+APPDATA = C:\Users\ssmosett\AppData\Roaming
+APPLOGSC = C:\WINDOWS\Logs\ManagedPC\Applications
+AppLogsU = C:\Users\ssmosett\AppData\Local\ManagedPC\Applications
+AssemblyFoldersConfigFile = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\AssemblyFolders.config
+AssemblyFoldersConfigFileSearchPath = {AssemblyFoldersFromConfig:C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\AssemblyFolders.config,v4.7.2};
+AssemblyFoldersSuffix = AssemblyFoldersEx
+AssemblyName = RaynMaker.Cube.Service
+AssemblySearchPaths = 
+      {CandidateAssemblyFiles};
+      ;
+      {HintPathFromItem};
+      {TargetFrameworkDirectory};
+      {AssemblyFoldersFromConfig:C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\AssemblyFolders.config,v4.7.2};
+      {Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx};
+      {AssemblyFolders};
+      {GAC};
+      {RawFileName};
+      ..\..\bin\Debug\
+    
+AssignTargetPathsDependsOn = 
+AutoGenerateBindingRedirects = true
+AutoUnifyAssemblyReferences = true
+AvailablePlatforms = Any CPU,x86,x64
+BaseIntermediateOutputPath = obj\
+BaseNuGetRuntimeIdentifier = win
+BRB = C:\Program Files\HP\Sure Click\bin
+BRS = C:\Program Files\HP\Sure Click\servers
+BuildCompileAction = Build
+BuildDependsOn = 
+      EntityDeploy;
+      
+      BeforeBuild;
+      CoreBuild;
+      AfterBuild
+    
+    
+BuildGenerateSourcesAction = Build
+BuildingProject = false
+BuildInParallel = true
+BuildLinkAction = Build
+BuildProjectReferences = true
+BuildSystem = MSBuild
+BuildTaskAssembly = PresentationBuildTasks, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+BuiltProjectOutputGroupDependenciesDependsOn = 
+      ;
+      
+      ;
+      BuildOnlySettings;
+      PrepareForBuild;
+      AssignTargetPaths;
+      ResolveReferences
+    
+    
+BuiltProjectOutputGroupDependsOn = PrepareForBuild
+CleanDependsOn = 
+      
+      BeforeClean;
+      UnmanagedUnregistration;
+      CoreClean;
+      CleanReferencedProjects;
+      CleanPublishFolder;
+      AfterClean
+    ;
+      EntityClean;
+    
+CleanFile = RaynMaker.Cube.Service.fsproj.FileListAbsolute.txt
+CodeAnalysisApplyLogFileXsl = false
+CodeAnalysisFailOnMissingRules = false
+CodeAnalysisForceOutput = true
+CodeAnalysisGenerateSuccessFile = true
+CodeAnalysisIgnoreGeneratedCode = true
+CodeAnalysisIgnoreInvalidTargets = true
+CodeAnalysisIgnoreMissingIndirectReferences = false
+CodeAnalysisInputAssembly = ..\..\bin\Debug\RaynMaker.Cube.Service.exe
+CodeAnalysisLogFile = ..\..\bin\Debug\RaynMaker.Cube.Service.exe.CodeAnalysisLog.xml
+CodeAnalysisModuleSuppressionsFile = GlobalSuppressions.fs
+CodeAnalysisOutputToConsole = false
+CodeAnalysisOverrideRuleVisibilities = false
+CodeAnalysisPath = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Team Tools\Static Analysis Tools\FxCop\
+CodeAnalysisQuiet = false
+CodeAnalysisRuleDirectories = ;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Team Tools\Static Analysis Tools\FxCop\\Rules
+CodeAnalysisRuleSet = MinimumRecommendedRules.ruleset
+CodeAnalysisRuleSetDirectories = ;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Team Tools\Static Analysis Tools\\Rule Sets
+CodeAnalysisSaveMessagesToReport = Active
+CodeAnalysisSearchGlobalAssemblyCache = true
+CodeAnalysisStaticAnalysisDirectory = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Team Tools\Static Analysis Tools\
+CodeAnalysisSucceededFile = ..\..\bin\Debug\RaynMaker.Cube.Service.exe.lastcodeanalysissucceeded
+CodeAnalysisSummary = false
+CodeAnalysisTargets = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\VisualStudio\v15.0\CodeAnalysis\Microsoft.CodeAnalysis.targets
+CodeAnalysisTimeout = 120
+CodeAnalysisTreatWarningsAsErrors = false
+CodeAnalysisUpdateProject = false
+CodeAnalysisUseTypeNameInSuppression = true
+CodeAnalysisVerbose = false
+CommandPromptType = Native
+CommonOutputGroupsDependsOn = 
+      ;
+      BuildOnlySettings;
+      PrepareForBuild;
+      AssignTargetPaths;
+      ResolveReferences
+    
+CommonProgramFiles = C:\Program Files (x86)\Common Files
+CommonProgramW6432 = C:\Program Files\Common Files
+CommonTargetsPath = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets
+CommonXamlResourcesDirectory = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\\
+CompileDependsOn = 
+        
+      ResolveReferences;
+      ResolveKeySource;
+      SetWin32ManifestProperties;
+      FindReferenceAssembliesForReferences;
+      _GenerateCompileInputs;
+      BeforeCompile;
+      _TimeStampBeforeCompile;
+      _GenerateCompileDependencyCache;
+      CoreCompile;
+      _TimeStampAfterCompile;
+      AfterCompile;
+    ;
+        _AfterCompileWinFXInternal
+    
+CompileLicxFilesDependsOn = 
+CompileTargetNameForTemporaryAssembly = CompileTemporaryAssembly
+ComputeIntermediateSatelliteAssembliesDependsOn = 
+      CreateManifestResourceNames
+    
+COMPUTERNAME = MD1YJAPC
+ComReferenceExecuteAsTool = false
+ComReferenceNoClassMembers = false
+ComSpec = C:\WINDOWS\system32\cmd.exe
+Configuration = Debug
+ConfigurationName = Debug
+ConsiderPlatformAsProcessorArchitecture = true
+ContentFilesProjectOutputGroupDependsOn = PrepareForBuild;AssignTargetPaths
+ContinueOnError = false
+CopyNuGetImplementations = true
+CoreBuildDependsOn = 
+      BuildOnlySettings;
+      PrepareForBuild;
+      PreBuildEvent;
+      ResolveReferences;
+      PrepareResources;
+      ResolveKeySource;
+      Compile;
+      ExportWindowsMDFile;
+      UnmanagedUnregistration;
+      GenerateSerializationAssemblies;
+      CreateSatelliteAssemblies;
+      GenerateManifests;
+      GetTargetPath;
+      PrepareForRun;
+      UnmanagedRegistration;
+      IncrementalClean;
+      PostBuildEvent
+    
+CoreCleanDependsOn = 
+CoreCompileDependsOn = _ComputeNonExistentFileProperty
+CoreResGenDependsOn = FindReferenceAssembliesForReferences
+CreateCustomManifestResourceNamesDependsOn = 
+CreateHardLinksForCopyAdditionalFilesIfPossible = false
+CreateManifestResourceNamesDependsOn = 
+CreateSatelliteAssembliesDependsOn = 
+      _GenerateSatelliteAssemblyInputs;
+      ComputeIntermediateSatelliteAssemblies;
+      GenerateSatelliteAssemblies
+    
+CreateSymbolicLinksForCopyAdditionalFilesIfPossible = false
+CustomAfterMicrosoftCommonProps = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\v15.0\Custom.After.Microsoft.Common.props
+CustomAfterMicrosoftCommonTargets = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\v15.0\Custom.After.Microsoft.Common.targets
+CustomBeforeMicrosoftCommonProps = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\v15.0\Custom.Before.Microsoft.Common.props
+CustomBeforeMicrosoftCommonTargets = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\v15.0\Custom.Before.Microsoft.Common.targets
+DebugSymbols = true
+DebugSymbolsProjectOutputGroupDependenciesDependsOn = 
+      ;
+      
+      ;
+      BuildOnlySettings;
+      PrepareForBuild;
+      AssignTargetPaths;
+      ResolveReferences
+    
+    
+DebugSymbolsProjectOutputGroupDependsOn = 
+DebugType = full
+DefaultLanguageSourceExtension = .fs
+DefaultScreensaver = scrnsave.scr
+DeferredValidationErrorsFileName = obj\Debug\\AC2C1ABA-CCF6-44D4-8127-588FD4D0A860-DeferredValidationErrors.xml
+DefineCommonReferenceSchemas = 
+DefineConstants = DEBUG;TRACE
+DelaySign = 
+DeploymentType = Installed
+DesignTimeIntermediateOutputPath = obj\Debug\InProcessTempFiles\
+DesignTimeResolveAssemblyReferencesDependsOn = 
+      GetFrameworkPaths;
+      GetReferenceAssemblyPaths;
+      ResolveReferences
+    
+Desktop = C:\Users\ssmosett\Desktop
+DevEnvDir = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\
+DockerBuildTasksAssembly = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Sdks\Microsoft.Docker.Sdk\build\..\tools\Microsoft.Docker.BuildTasks.dll
+DockerIntermediateOutputPath = obj\Docker
+DockerPublishDirectory = obj\Docker\publish
+DocumentationProjectOutputGroupDependenciesDependsOn = 
+      ;
+      
+      ;
+      BuildOnlySettings;
+      PrepareForBuild;
+      AssignTargetPaths;
+      ResolveReferences
+    
+    
+DocumentationProjectOutputGroupDependsOn = 
+EmbeddedWin32Manifest = 
+EntityDeployDependsOn = 
+EntityDeployIntermediateResourcePath = obj\Debug\edmxResourcesToEmbed\
+ExpandSDKAllowedReferenceExtensions = 
+      .winmd;
+      .dll
+    
+ExpandSDKReferencesDependsOn = 
+      ResolveSDKReferences
+    
+ExtensionSdkDir = C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs
+F_IA32_REDIST11 = C:\Program Files (x86)\Common Files\Intel\Shared Files\fortran\
+FindInvalidProjectReferencesDependsOn = 
+      GetReferenceTargetPlatformMonikers
+    
+Framework20Dir = @(_TargetFramework20DirectoryItem)
+Framework30Dir = @(_TargetFramework30DirectoryItem)
+Framework35Dir = @(_TargetFramework35DirectoryItem)
+Framework40Dir = @(_TargetFramework40DirectoryItem)
+Framework40Version = v4.0
+FrameworkDir = C:\Windows\Microsoft.NET\Framework\
+FrameworkDir32 = C:\Windows\Microsoft.NET\Framework\
+FrameworkPathOverride = C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2
+FrameworkRegistryBase = Software\Microsoft\.NETFramework
+FrameworkSDKDir = @(_TargetFrameworkSDKDirectoryItem)
+FrameworkSDKRoot = C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\
+FrameworkVersion = v4.0.30319
+FrameworkVersion32 = v4.0.30319
+FSharpBuildAssemblyFile = FSharp.Build.dll
+FSHARPINSTALLDIR = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\FSharp\
+FSharpTargetsPath = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\VisualStudio\v15.0\FSharp\Microsoft.FSharp.Targets
+FullReferenceAssemblyNames = Full
+GenerateBindingRedirectsOutputType = true
+GenerateClickOnceManifests = 
+GeneratedFileExtension = .g.fs
+GenerateManifestsDependsOn = 
+      SetWin32ManifestProperties;
+      GenerateApplicationManifest;
+      GenerateDeploymentManifest
+    
+GenerateTargetFrameworkAttribute = true
+GetCopyToOutputDirectoryItemsDependsOn = 
+      AssignTargetPaths;
+      _SplitProjectReferencesByFileExistence;
+      _GetProjectReferenceTargetFrameworkProperties
+    
+GetFrameworkPathsDependsOn = 
+GetReferenceAssemblyPathsDependsOn = 
+        ;
+        GetWinFXPath
+    
+GetTargetPathDependsOn = 
+GetTargetPathWithTargetPlatformMonikerDependsOn = 
+HideWarningsAndErrors = false
+HighEntropyVA = true
+HOMEDRIVE = C:
+HOMEPATH = \Users\ssmosett
+HostInBrowser = false
+ImplicitlyExpandDesignTimeFacades = true
+ImplicitlyExpandDesignTimeFacadesDependsOn = 
+      ;
+      GetReferenceAssemblyPaths
+    
+ImplicitlyExpandNETStandardFacades = true
+ImportByWildcardAfterMicrosoftCommonProps = true
+ImportByWildcardAfterMicrosoftCommonTargets = true
+ImportByWildcardAfterMicrosoftFSharpTargets = true
+ImportByWildcardAfterMicrosoftNetFrameworkProps = true
+ImportByWildcardAfterMicrosoftNetFrameworkTargets = true
+ImportByWildcardBeforeMicrosoftCommonProps = true
+ImportByWildcardBeforeMicrosoftCommonTargets = true
+ImportByWildcardBeforeMicrosoftFSharpTargets = true
+ImportByWildcardBeforeMicrosoftNetFrameworkProps = true
+ImportByWildcardBeforeMicrosoftNetFrameworkTargets = true
+ImportDirectoryBuildProps = true
+ImportDirectoryBuildTargets = true
+ImportProjectExtensionProps = true
+ImportProjectExtensionTargets = true
+ImportUserLocationsByWildcardAfterMicrosoftCommonProps = true
+ImportUserLocationsByWildcardAfterMicrosoftCommonTargets = true
+ImportUserLocationsByWildcardAfterMicrosoftNetFrameworkProps = true
+ImportUserLocationsByWildcardAfterMicrosoftNetFrameworkTargets = true
+ImportUserLocationsByWildcardBeforeMicrosoftCommonProps = true
+ImportUserLocationsByWildcardBeforeMicrosoftCommonTargets = true
+ImportUserLocationsByWildcardBeforeMicrosoftNetFrameworkProps = true
+ImportUserLocationsByWildcardBeforeMicrosoftNetFrameworkTargets = true
+ImportXamlTargets = true
+INCLUDE = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\ATLMFC\include;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\include;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt
+IncludeFrameworkReferencesFromNuGet = true
+INTEL_DEV_REDIST = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\
+IntermediateOutputPath = obj\Debug\
+iOSTargetsPath = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\MDD\iOS\V150\
+IsApplication = true
+IsRestoreTargetsFileLoaded = true
+IWBPath = C:\Program Files (x86)\SAP\FrontEnd\iwb
+Language = F#
+LIB = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\ATLMFC\lib\x86;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\lib\x86;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\lib\um\x86;C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\ucrt\x86;C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x86;
+LIBPATH = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\ATLMFC\lib\x86;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\lib\x86;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\lib\x86\store\references;C:\Program Files (x86)\Windows Kits\10\UnionMetadata\10.0.17763.0;C:\Program Files (x86)\Windows Kits\10\References\10.0.17763.0;C:\Windows\Microsoft.NET\Framework\v4.0.30319;
+LoadTimeSensitiveProperties = 
+      ;
+    
+LoadTimeSensitiveTargets = 
+      ;
+      XamlMarkupCompilePass1;
+    
+LOCALAPPDATA = C:\Users\ssmosett\AppData\Local
+LocalizationDirectivesToLocFile = None
+LOGONSERVER = \\DEMCHAHC99A
+MarkupCompilePass2ForMainAssemblyDependsOn = 
+                     GenerateTemporaryTargetAssembly;
+                     MarkupCompilePass2;
+                     AfterMarkupCompilePass2;
+                     CleanupTemporaryTargetAssembly
+       
+MaxTargetPath = 100
+MicrosoftCommonPropsHasBeenImported = true
+MicrosoftNETBuildExtensionsTargets = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.targets
+MicrosoftNETBuildExtensionsTasksAssembly = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\\tools\net46\Microsoft.NET.Build.Extensions.Tasks.dll
+MinimumVisualStudioVersion = 11
+MsAppxPackageTargets = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\VisualStudio\v15.0\AppxPackage\Microsoft.AppXPackage.Targets
+MSBuildAllProjects = ;C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\RaynMaker.Cube.Service.fsproj.nuget.g.props;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\FSharp\Microsoft.FSharp.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.props;C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Xaml.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Microsoft.Common.targets\ImportAfter\Microsoft.NET.Build.Extensions.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.NETFramework.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.DefaultPackageConflictOverrides.targets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\NuGet\15.0\Microsoft.NuGet.targets;C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\RaynMaker.Cube.Service.fsproj.nuget.g.targets
+MSBuildAssemblyVersion = 15.0
+MSBuildBinPath = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin
+MSBuildExtensionsPath = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild
+MSBuildExtensionsPath32 = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild
+MSBuildExtensionsPath64 = C:\Program Files\MSBuild
+MSBuildFrameworkToolsPath = C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\
+MSBuildFrameworkToolsPath32 = C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\
+MSBuildFrameworkToolsPath64 = C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\
+MSBuildFrameworkToolsRoot = C:\WINDOWS\Microsoft.NET\Framework\
+MSBuildLoadMicrosoftTargetsReadOnly = true
+MSBuildNodeCount = 1
+MSBuildProgramFiles32 = C:\Program Files (x86)
+MSBuildProjectDefaultTargets = Build
+MSBuildProjectDirectory = C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service
+MSBuildProjectDirectoryNoRoot = Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service
+MSBuildProjectExtension = .fsproj
+MSBuildProjectExtensionsPath = C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\
+MSBuildProjectFile = RaynMaker.Cube.Service.fsproj
+MSBuildProjectFullPath = C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj
+MSBuildProjectName = RaynMaker.Cube.Service
+MSBuildRuntimeType = Full
+MSBuildRuntimeVersion = 4.0.30319
+MSBuildSDKsPath = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Sdks
+MSBuildStartupDirectory = C:\Workspace\RaynMaker\RaynMaker.Cube
+MSBuildToolsPath = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin
+MSBuildToolsPath32 = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin
+MSBuildToolsPath64 = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\amd64
+MSBuildToolsRoot = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild
+MSBuildToolsVersion = 15.0
+MSBuildUserExtensionsPath = C:\Users\ssmosett\AppData\Local\Microsoft\MSBuild
+MSBuildVersion = 15.9.21
+MsTestToolsTargets = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\VisualStudio\v15.0\TeamTest\Microsoft.TeamTest.targets
+Name = RaynMaker.Cube.Service
+NetFrameworkPropsPath = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.props
+NetFrameworkTargetsPath = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.targets
+NETFXSDKDir = C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\
+NetLogon = \\ad005.onehc.net\NETLOGON\RA106\Win10
+NetlogonDWP = \\ad005.onehc.net\NETLOGON\RA106\Win10
+NuGetPackageFolders = C:\Users\ssmosett\.nuget\packages\;C:\Program Files\dotnet\sdk\NuGetFallbackFolder
+NuGetPackageRoot = C:\Users\ssmosett\.nuget\packages\
+NuGetProjectStyle = PackageReference
+NuGetProps = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\NuGet\15.0\Microsoft.NuGet.props
+NuGetRestoreTargets = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\..\..\..\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets
+NuGetRuntimeIdentifier = win
+NuGetTargetFrameworkMonikerToInject = .NETCore,Version=v5.0
+NuGetTargetMoniker = .NETFramework,Version=v4.7.2
+NuGetTargetMonikerToInject = .NETCore,Version=v5.0
+NuGetTargets = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\NuGet\15.0\Microsoft.NuGet.targets
+NuGetToolVersion = 4.9.2
+NUMBER_OF_PROCESSORS = 4
+OneDrive = C:\Users\ssmosett\OneDrive
+Optimize = false
+OS = Windows_NT
+OSVersion = 5.1.2600.0
+OutDir = ..\..\bin\Debug\
+OutputPath = ..\..\bin\Debug\
+OutputType = Exe
+OverwriteReadOnlyFiles = false
+Path = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCPackages;C:\Program Files (x86)\Microsoft SDKs\TypeScript\3.1;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Roslyn;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Team Tools\Performance Tools;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools\;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\FSharp\;C:\Program Files (x86)\Windows Kits\10\bin\10.0.17763.0\x86;C:\Program Files (x86)\Windows Kits\10\bin\x86;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\\MSBuild\15.0\bin;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\Tools\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\mpirt;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Files\fortran\bin\ia32;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Java\jre1.8.0_181\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\nodejs\;C:\Users\ssmosett\AppData\Local\Microsoft\WindowsApps;C:\Users\ssmosett\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+Platform = AnyCPU
+PlatformName = AnyCPU
+PlatformTarget = AnyCPU
+PlatformTargetAsMSBuildArchitecture = CurrentArchitecture
+PlatformTargetAsMSBuildArchitectureExplicitlySet = false
+PLMVIS_82_LIBPATH = C:\Program Files (x86)\SAP\FrontEnd\SAPgui\Program
+PostBuildEventDependsOn = 
+PreBuildEventDependsOn = 
+Prefer32Bit = true
+PrepareForBuildDependsOn = GetFrameworkPaths;GetReferenceAssemblyPaths;AssignLinkMetadata
+PrepareForRunDependsOn = 
+      CopyFilesToOutputDirectory
+    
+PrepareProjectReferencesDependsOn = 
+      AssignProjectConfiguration;
+      _SplitProjectReferencesByFileExistence;
+      _GetProjectReferenceTargetFrameworkProperties
+    
+PrepareResourceNamesDependsOn = 
+                    AssignWinFXEmbeddedResource;
+                    
+      AssignTargetPaths;
+      SplitResourcesByCulture;
+      CreateManifestResourceNames;
+      CreateCustomManifestResourceNames
+    
+      
+PrepareResourcesDependsOn = ResolveNuGetPackageAssets;
+      ValidationExtension;
+      ExpressionBuildExtension;
+      
+      XamlMarkupCompilePass1;
+      XamlMarkupCompilePass2;
+      
+                MarkupCompilePass1;
+                AfterMarkupCompilePass1;
+                MarkupCompilePass2ForMainAssembly;
+                FileClassification;
+                MainResourcesGeneration;
+                
+      PrepareResourceNames;
+      ResGen;
+      CompileLicxFiles
+    
+       
+    
+    
+PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_ARCHITEW6432 = AMD64
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 9, GenuineIntel
+PROCESSOR_LEVEL = 6
+PROCESSOR_REVISION = 8e09
+ProcessorArchitecture = msil
+ProduceReferenceAssembly = false
+ProgramData = C:\ProgramData
+ProgramFiles = C:\Program Files (x86)
+ProgramW6432 = C:\Program Files
+ProjectAssetsFile = C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\project.assets.json
+ProjectDesignTimeAssemblyResolutionSearchPaths = 
+      {CandidateAssemblyFiles};
+      ;
+      {HintPathFromItem};
+      {TargetFrameworkDirectory};
+      {Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx};
+      {RawFileName};
+      C:\Workspace\RaynMaker\RaynMaker.Cube\bin\Debug\
+    
+ProjectDir = C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\
+ProjectExt = .fsproj
+ProjectFileName = RaynMaker.Cube.Service.fsproj
+ProjectFlavor = Client
+ProjectGuid = cef7692c-741f-4d64-bc2c-96e54742eef8
+ProjectLockFile = C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\project.assets.json
+ProjectName = RaynMaker.Cube.Service
+ProjectPath = C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj
+PROMPT = $P$G
+PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC = C:\Users\Public
+PublishableProject = true
+PublishBuildDependsOn = 
+            BuildOnlySettings;
+            PrepareForBuild;
+            ResolveReferences;
+            PrepareResources;
+            ResolveKeySource;
+            PrepareResourcesForSatelliteAssemblies;
+            GenerateSerializationAssemblies;
+            CreateSatelliteAssemblies;
+        
+PublishDependsOn = 
+      SetGenerateManifests;
+      Build;
+      PublishOnly
+    
+PublishDir = ..\..\bin\Debug\app.publish\
+PublishOnlyDependsOn = 
+      SetGenerateManifests;
+      PublishBuild;
+      BeforePublish;
+      GenerateManifests;
+      CopyFilesToOutputDirectory;
+      _CopyFilesToPublishFolder;
+      _DeploymentGenerateBootstrapper;
+      ResolveKeySource;
+      _DeploymentSignClickOnceDeployment;
+      AfterPublish
+    
+RebuildDependsOn = 
+      BeforeRebuild;
+      Clean;
+      Build;
+      AfterRebuild;
+    
+ReferenceCopyLocalPathsOutputGroupDependsOn = 
+      ;
+      
+      ;
+      BuildOnlySettings;
+      PrepareForBuild;
+      AssignTargetPaths;
+      ResolveReferences
+    
+    
+ReportingServicesTargets = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\VisualStudio\v15.0\ReportingServices\Microsoft.ReportingServices.targets
+ResGenDependsOn = ResolveAssemblyReferences;SplitResourcesByCulture;BeforeResGen;CoreResGen;AfterResGen
+ResGenExecuteAsTool = false
+ResolveAssemblyConflicts = true
+ResolveAssemblyReferencesDependsOn = 
+      ResolveProjectReferences;
+      FindInvalidProjectReferences;
+      GetFrameworkPaths;
+      GetReferenceAssemblyPaths;
+      PrepareForBuild;
+      ResolveSDKReferences;
+      ExpandSDKReferences;
+    ;ResolveNuGetPackageAssets
+ResolveNuGetPackageAssetsDependsOn = ResolveProjectReferences
+ResolveNuGetPackages = true
+ResolveReferencesDependsOn = 
+      
+      
+      BeforeResolveReferences;
+      AssignProjectConfiguration;
+      ResolveProjectReferences;
+      FindInvalidProjectReferences;
+      ResolveNativeReferences;
+      ResolveAssemblyReferences;
+      GenerateBindingRedirects;
+      ResolveComReferences;
+      AfterResolveReferences
+    ;
+      ImplicitlyExpandDesignTimeFacades
+    ;
+      ResolveTestReferences
+    
+ResolveSDKReferencesDependsOn = 
+      GetInstalledSDKLocations
+    
+RestoreBuildInParallel = true
+RestoreContinueOnError = WarnAndContinue
+RestoreRecursive = true
+RestoreSuccess = True
+RestoreTaskAssemblyFile = NuGet.Build.Tasks.dll
+RestoreTool = NuGet
+RestoreUseSkipNonexistentTargets = true
+RootNamespace = RaynMaker.Cube.Service
+RoslynTargetsPath = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Roslyn
+RunAfterInstall = true
+RunCodeAnalysisInputs = ..\..\bin\Debug\RaynMaker.Cube.Service.exe
+RunCppAnalysis = false
+RunDependsOn = 
+RuntimeIdentifiers = win
+saplogon_ini_file = C:\Users\ssmosett\AppData\Roaming\SAP\saplogon.ini
+SatelliteDllsProjectOutputGroupDependenciesDependsOn = 
+      ;
+      
+      ;
+      BuildOnlySettings;
+      PrepareForBuild;
+      AssignTargetPaths;
+      ResolveReferences
+    
+    
+SatelliteDllsProjectOutputGroupDependsOn = PrepareForBuild;PrepareResourceNames
+SchemaVersion = 2.0
+SDK35ToolsPath = 
+SDK40ToolsPath = C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\
+SDKRedistOutputGroupDependsOn = ResolveSDKReferences;ExpandSDKReferences
+SDKReferenceDirectoryRoot = C:\Users\ssmosett\AppData\Local\Microsoft SDKs;C:\Program Files (x86)\Microsoft SDKs
+SDKReferenceRegistryRoot = Software\Microsoft\Microsoft SDKs
+SESSIONNAME = Console
+SGenFilesOutputGroupDependenciesDependsOn = 
+      ;
+      
+      ;
+      BuildOnlySettings;
+      PrepareForBuild;
+      AssignTargetPaths;
+      ResolveReferences
+    
+    
+SGenFilesOutputGroupDependsOn = 
+SGenShouldGenerateSerializer = true
+SGenUseKeep = false
+SGenUseProxyTypes = true
+ShouldMarkCertainSDKReferencesAsRuntimeOnly = true
+SiteServer = webmail-emea.siemens.net
+SkipCopyUnchangedFiles = true
+SNC_LIB = C:\Program Files (x86)\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll
+SNC_LIB_64 = C:\Program Files\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll
+SolutionDir = *Undefined*
+SolutionExt = *Undefined*
+SolutionFileName = *Undefined*
+SolutionName = *Undefined*
+SolutionPath = *Undefined*
+SourceControlInformationFeatureSupported = true
+SourceFilesProjectOutputGroupDependsOn = PrepareForBuild;AssignTargetPaths
+SSF_LIBRARY_PATH = C:\Program Files (x86)\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll
+SSF_LIBRARY_PATH_64 = C:\Program Files\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll
+SubsystemVersion = 6.00
+SystemDrive = C:
+SystemRoot = C:\WINDOWS
+Tailcalls = false
+TargetCulture = *
+TargetDeployManifestFileName = RaynMaker.Cube.Service.application
+TargetDir = C:\Workspace\RaynMaker\RaynMaker.Cube\bin\Debug\
+TargetedFrameworkDir = @(_TargetedFrameworkDirectoryItem)
+TargetedRuntimeVersion = v4.0.30319
+TargetedSDKArchitecture = msil
+TargetedSDKConfiguration = Debug
+TargetExt = .exe
+TargetFileName = RaynMaker.Cube.Service.exe
+TargetFrameworkAsMSBuildRuntime = CurrentRuntime
+TargetFrameworkIdentifier = .NETFramework
+TargetFrameworkMoniker = .NETFramework,Version=v4.7.2
+TargetFrameworkMonikerAssemblyAttributesPath = C:\Users\ssmosett\AppData\Local\Temp\.NETFramework,Version=v4.7.2.AssemblyAttributes.fs
+TargetFrameworkSDKToolsDirectory = C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\
+TargetFrameworkVersion = v4.7.2
+TargetName = RaynMaker.Cube.Service
+TargetPath = C:\Workspace\RaynMaker\RaynMaker.Cube\bin\Debug\RaynMaker.Cube.Service.exe
+TargetPlatformDisplayName = Windows 7.0
+TargetPlatformIdentifier = Windows
+TargetPlatformMoniker = Windows,Version=7.0
+TargetPlatformRegistryBase = Software\Microsoft\Microsoft SDKs\Windows
+TargetPlatformSdkPath = 
+TargetPlatformVersion = 7.0
+TargetRuntime = Managed
+TaskKeyToken = 31bf3856ad364e35
+TaskVersion = 4.0.0.0
+TEMP = C:\Users\ssmosett\AppData\Local\Temp
+TMP = C:\Users\ssmosett\AppData\Local\Temp
+UATDATA = C:\WINDOWS\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+UCRTVersion = 10.0.17763.0
+UniversalCRTSdkDir = C:\Program Files (x86)\Windows Kits\10\
+UnmanagedRegistrationDependsOn = 
+UnmanagedUnregistrationDependsOn = 
+UpgradeSubsetToProfile = true
+UseCommonOutputDirectory = false
+USERDNSDOMAIN = AD005.ONEHC.NET
+USERDOMAIN = AD005
+USERDOMAIN_ROAMINGPROFILE = AD005
+USERNAME = ssmosett
+USERPROFILE = C:\Users\ssmosett
+UseSourcePath = true
+UseStandardResourceNames = true
+UsingXBuild = false
+ValidateRuntimeIdentifierCompatibility = false
+VCIDEInstallDir = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\
+VCINSTALLDIR = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\
+VCTargetsPath = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\
+VCTargetsPath10 = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\
+VCTargetsPath11 = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\
+VCTargetsPath12 = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\
+VCTargetsPath14 = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\
+VCToolsInstallDir = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\
+VCToolsRedistDir = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Redist\MSVC\14.16.27012\
+VCToolsVersion = 14.16.27023
+Version = 1.0.0.0
+VisualStudioVersion = 15.0
+VS150COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\Tools\
+VSCMD_ARG_app_plat = Desktop
+VSCMD_ARG_HOST_ARCH = x86
+VSCMD_ARG_TGT_ARCH = x86
+VSCMD_VER = 15.9.4
+VSINSTALLDIR = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\
+VsInstallRoot = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional
+WarningLevel = 3
+WebReference_EnableLegacyEventingModel = false
+WebReference_EnableProperties = true
+WebReference_EnableSQLTypes = true
+windir = C:\WINDOWS
+WindowsLibPath = C:\Program Files (x86)\Windows Kits\10\UnionMetadata\10.0.17763.0;C:\Program Files (x86)\Windows Kits\10\References\10.0.17763.0
+WindowsSDK_ExecutablePath_x64 = C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\x64\
+WindowsSDK_ExecutablePath_x86 = C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\
+WindowsSDK80Path = 
+WindowsSdkBinPath = C:\Program Files (x86)\Windows Kits\10\bin\
+WindowsSdkDir = C:\Program Files (x86)\Windows Kits\10\
+WindowsSDKLibVersion = 10.0.17763.0\
+WindowsSdkVerBinPath = C:\Program Files (x86)\Windows Kits\10\bin\10.0.17763.0\
+WindowsSDKVersion = 10.0.17763.0\
+WMSJSProject = WJProject
+WMSJSProjectDirectory = JavaScript
+WorkflowBuildExtensionAssemblyName = Microsoft.Activities.Build, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+WorkflowBuildExtensionKeyToken = 31bf3856ad364e35
+WorkflowBuildExtensionVersion = 4.0.0.0
+XamlBuildTaskAssemblyName = XamlBuildTask, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+XamlBuildTaskLocation = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\amd64
+XamlBuildTaskPath = C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\amd64
+XamlDebuggingInformation = true
+XamlGenCodeFileNames = RaynMaker.Cube.Service.fsproj.XamlGeneratedCodeFileListAbsolute.txt
+XamlGenMarkupFileNames = RaynMaker.Cube.Service.fsproj.XamlGeneratedXamlFileListAbsolute.txt
+XamlPass2FlagFile = RaynMaker.Cube.Service.fsproj.XamlPass2Flag.txt
+XamlRequiresCompilationPass2 = false
+XamlTemporaryAssemblyName = RaynMaker.Cube.Service
+YieldDuringToolExecution = true
+
+Initial Items:
+_ApplicationManifestFinal
+    ..\..\bin\Debug\RaynMaker.Cube.Service.exe.manifest
+        TargetPath = RaynMaker.Cube.Service.exe.manifest
+_DebugSymbolsIntermediatePath
+    obj\Debug\RaynMaker.Cube.Service.pdb
+_DebugSymbolsOutputPath
+    ..\..\bin\Debug\RaynMaker.Cube.Service.pdb
+_DeploymentManifestEntryPoint
+    obj\Debug\RaynMaker.Cube.Service.exe
+        TargetPath = RaynMaker.Cube.Service.exe
+_OutputPathItem
+    ..\..\bin\Debug\
+_ResolveComReferenceCache
+    obj\Debug\RaynMaker.Cube.Service.fsproj.ResolveComReference.cache
+_UnmanagedRegistrationCache
+    obj\RaynMaker.Cube.Service.fsproj.UnmanagedRegistration.cache
+AppConfigFileDestination
+    ..\..\bin\Debug\RaynMaker.Cube.Service.exe.config
+ApplicationManifest
+    obj\Debug\RaynMaker.Cube.Service.exe.manifest
+        TargetPath = RaynMaker.Cube.Service.exe.manifest
+AvailableItemName
+    AdditionalFiles
+    CodeAnalysisDictionary
+    EntityDeploy
+BuiltProjectOutputGroupKeyOutput
+    C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.exe
+        IsKeyOutput = true
+        FinalOutputPath = C:\Workspace\RaynMaker\RaynMaker.Cube\bin\Debug\RaynMaker.Cube.Service.exe
+        TargetPath = RaynMaker.Cube.Service.exe
+Clean
+    obj\Debug\\TempCA\RaynMaker.Cube.Service.exe
+    obj\Debug\\TempCA\RaynMaker.Cube.Service.pdb
+Compile
+    AssemblyInfo.fs
+    Controllers.fs
+    Frameworks.Web.fs
+    Program.fs
+Content
+    packages.config
+CopyUpToDateMarker
+    C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.fsproj.CopyComplete
+CustomAdditionalCompileInputs
+    C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\project.assets.json
+DebugSymbolsProjectOutputGroupOutput
+    C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.pdb
+        FinalOutputPath = C:\Workspace\RaynMaker\RaynMaker.Cube\bin\Debug\RaynMaker.Cube.Service.pdb
+        TargetPath = RaynMaker.Cube.Service.pdb
+DeployManifest
+    obj\Debug\RaynMaker.Cube.Service.application
+        TargetPath = RaynMaker.Cube.Service.application
+IntermediateAssembly
+    obj\Debug\RaynMaker.Cube.Service.exe
+None
+    App.config
+NuGetPreprocessorValue
+    assemblyname
+        Value = RaynMaker.Cube.Service
+    filename
+        Value = RaynMaker.Cube.Service.fsproj
+    fullpath
+        Value = C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service
+    outputfilename
+        Value = RaynMaker.Cube.Service.exe
+    rootnamespace
+        Value = RaynMaker.Cube.Service
+PackageConflictOverrides
+    Microsoft.NETCore.App
+        OverriddenPackages = 
+        Microsoft.CSharp|4.4.0;
+        Microsoft.Win32.Primitives|4.3.0;
+        Microsoft.Win32.Registry|4.4.0;
+        runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl|4.3.0;
+        runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl|4.3.0;
+        runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl|4.3.0;
+        runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl|4.3.0;
+        runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl|4.3.0;
+        runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple|4.3.0;
+        runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl|4.3.0;
+        runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl|4.3.0;
+        runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl|4.3.0;
+        runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl|4.3.0;
+        runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl|4.3.0;
+        System.AppContext|4.3.0;
+        System.Buffers|4.4.0;
+        System.Collections|4.3.0;
+        System.Collections.Concurrent|4.3.0;
+        System.Collections.Immutable|1.4.0;
+        System.Collections.NonGeneric|4.3.0;
+        System.Collections.Specialized|4.3.0;
+        System.ComponentModel|4.3.0;
+        System.ComponentModel.EventBasedAsync|4.3.0;
+        System.ComponentModel.Primitives|4.3.0;
+        System.ComponentModel.TypeConverter|4.3.0;
+        System.Console|4.3.0;
+        System.Data.Common|4.3.0;
+        System.Diagnostics.Contracts|4.3.0;
+        System.Diagnostics.Debug|4.3.0;
+        System.Diagnostics.DiagnosticSource|4.4.0;
+        System.Diagnostics.FileVersionInfo|4.3.0;
+        System.Diagnostics.Process|4.3.0;
+        System.Diagnostics.StackTrace|4.3.0;
+        System.Diagnostics.TextWriterTraceListener|4.3.0;
+        System.Diagnostics.Tools|4.3.0;
+        System.Diagnostics.TraceSource|4.3.0;
+        System.Diagnostics.Tracing|4.3.0;
+        System.Dynamic.Runtime|4.3.0;
+        System.Globalization|4.3.0;
+        System.Globalization.Calendars|4.3.0;
+        System.Globalization.Extensions|4.3.0;
+        System.IO|4.3.0;
+        System.IO.Compression|4.3.0;
+        System.IO.Compression.ZipFile|4.3.0;
+        System.IO.FileSystem|4.3.0;
+        System.IO.FileSystem.AccessControl|4.4.0;
+        System.IO.FileSystem.DriveInfo|4.3.0;
+        System.IO.FileSystem.Primitives|4.3.0;
+        System.IO.FileSystem.Watcher|4.3.0;
+        System.IO.IsolatedStorage|4.3.0;
+        System.IO.MemoryMappedFiles|4.3.0;
+        System.IO.Pipes|4.3.0;
+        System.IO.UnmanagedMemoryStream|4.3.0;
+        System.Linq|4.3.0;
+        System.Linq.Expressions|4.3.0;
+        System.Linq.Queryable|4.3.0;
+        System.Net.Http|4.3.0;
+        System.Net.NameResolution|4.3.0;
+        System.Net.Primitives|4.3.0;
+        System.Net.Requests|4.3.0;
+        System.Net.Security|4.3.0;
+        System.Net.Sockets|4.3.0;
+        System.Net.WebHeaderCollection|4.3.0;
+        System.ObjectModel|4.3.0;
+        System.Private.DataContractSerialization|4.3.0;
+        System.Reflection|4.3.0;
+        System.Reflection.Emit|4.3.0;
+        System.Reflection.Emit.ILGeneration|4.3.0;
+        System.Reflection.Emit.Lightweight|4.3.0;
+        System.Reflection.Extensions|4.3.0;
+        System.Reflection.Metadata|1.5.0;
+        System.Reflection.Primitives|4.3.0;
+        System.Reflection.TypeExtensions|4.3.0;
+        System.Resources.ResourceManager|4.3.0;
+        System.Runtime|4.3.0;
+        System.Runtime.Extensions|4.3.0;
+        System.Runtime.Handles|4.3.0;
+        System.Runtime.InteropServices|4.3.0;
+        System.Runtime.InteropServices.RuntimeInformation|4.3.0;
+        System.Runtime.Loader|4.3.0;
+        System.Runtime.Numerics|4.3.0;
+        System.Runtime.Serialization.Formatters|4.3.0;
+        System.Runtime.Serialization.Json|4.3.0;
+        System.Runtime.Serialization.Primitives|4.3.0;
+        System.Security.AccessControl|4.4.0;
+        System.Security.Claims|4.3.0;
+        System.Security.Cryptography.Algorithms|4.3.0;
+        System.Security.Cryptography.Cng|4.4.0;
+        System.Security.Cryptography.Csp|4.3.0;
+        System.Security.Cryptography.Encoding|4.3.0;
+        System.Security.Cryptography.OpenSsl|4.4.0;
+        System.Security.Cryptography.Primitives|4.3.0;
+        System.Security.Cryptography.X509Certificates|4.3.0;
+        System.Security.Cryptography.Xml|4.4.0;
+        System.Security.Principal|4.3.0;
+        System.Security.Principal.Windows|4.4.0;
+        System.Text.Encoding|4.3.0;
+        System.Text.Encoding.Extensions|4.3.0;
+        System.Text.RegularExpressions|4.3.0;
+        System.Threading|4.3.0;
+        System.Threading.Overlapped|4.3.0;
+        System.Threading.Tasks|4.3.0;
+        System.Threading.Tasks.Extensions|4.3.0;
+        System.Threading.Tasks.Parallel|4.3.0;
+        System.Threading.Thread|4.3.0;
+        System.Threading.ThreadPool|4.3.0;
+        System.Threading.Timer|4.3.0;
+        System.ValueTuple|4.3.0;
+        System.Xml.ReaderWriter|4.3.0;
+        System.Xml.XDocument|4.3.0;
+        System.Xml.XmlDocument|4.3.0;
+        System.Xml.XmlSerializer|4.3.0;
+        System.Xml.XPath|4.3.0;
+        System.Xml.XPath.XDocument|4.3.0;
+      
+    NETStandard.Library
+        OverriddenPackages = 
+        Microsoft.Win32.Primitives|4.3.0;
+        System.AppContext|4.3.0;
+        System.Collections|4.3.0;
+        System.Collections.Concurrent|4.3.0;
+        System.Collections.Immutable|1.4.0;
+        System.Collections.NonGeneric|4.3.0;
+        System.Collections.Specialized|4.3.0;
+        System.ComponentModel|4.3.0;
+        System.ComponentModel.EventBasedAsync|4.3.0;
+        System.ComponentModel.Primitives|4.3.0;
+        System.ComponentModel.TypeConverter|4.3.0;
+        System.Console|4.3.0;
+        System.Data.Common|4.3.0;
+        System.Diagnostics.Contracts|4.3.0;
+        System.Diagnostics.Debug|4.3.0;
+        System.Diagnostics.FileVersionInfo|4.3.0;
+        System.Diagnostics.Process|4.3.0;
+        System.Diagnostics.StackTrace|4.3.0;
+        System.Diagnostics.TextWriterTraceListener|4.3.0;
+        System.Diagnostics.Tools|4.3.0;
+        System.Diagnostics.TraceSource|4.3.0;
+        System.Diagnostics.Tracing|4.3.0;
+        System.Dynamic.Runtime|4.3.0;
+        System.Globalization|4.3.0;
+        System.Globalization.Calendars|4.3.0;
+        System.Globalization.Extensions|4.3.0;
+        System.IO|4.3.0;
+        System.IO.Compression|4.3.0;
+        System.IO.Compression.ZipFile|4.3.0;
+        System.IO.FileSystem|4.3.0;
+        System.IO.FileSystem.DriveInfo|4.3.0;
+        System.IO.FileSystem.Primitives|4.3.0;
+        System.IO.FileSystem.Watcher|4.3.0;
+        System.IO.IsolatedStorage|4.3.0;
+        System.IO.MemoryMappedFiles|4.3.0;
+        System.IO.Pipes|4.3.0;
+        System.IO.UnmanagedMemoryStream|4.3.0;
+        System.Linq|4.3.0;
+        System.Linq.Expressions|4.3.0;
+        System.Linq.Queryable|4.3.0;
+        System.Net.Http|4.3.0;
+        System.Net.NameResolution|4.3.0;
+        System.Net.Primitives|4.3.0;
+        System.Net.Requests|4.3.0;
+        System.Net.Security|4.3.0;
+        System.Net.Sockets|4.3.0;
+        System.Net.WebHeaderCollection|4.3.0;
+        System.ObjectModel|4.3.0;
+        System.Private.DataContractSerialization|4.3.0;
+        System.Reflection|4.3.0;
+        System.Reflection.Emit|4.3.0;
+        System.Reflection.Emit.ILGeneration|4.3.0;
+        System.Reflection.Emit.Lightweight|4.3.0;
+        System.Reflection.Extensions|4.3.0;
+        System.Reflection.Primitives|4.3.0;
+        System.Reflection.TypeExtensions|4.3.0;
+        System.Resources.ResourceManager|4.3.0;
+        System.Runtime|4.3.0;
+        System.Runtime.Extensions|4.3.0;
+        System.Runtime.Handles|4.3.0;
+        System.Runtime.InteropServices|4.3.0;
+        System.Runtime.InteropServices.RuntimeInformation|4.3.0;
+        System.Runtime.Loader|4.3.0;
+        System.Runtime.Numerics|4.3.0;
+        System.Runtime.Serialization.Formatters|4.3.0;
+        System.Runtime.Serialization.Json|4.3.0;
+        System.Runtime.Serialization.Primitives|4.3.0;
+        System.Security.AccessControl|4.4.0;
+        System.Security.Claims|4.3.0;
+        System.Security.Cryptography.Algorithms|4.3.0;
+        System.Security.Cryptography.Csp|4.3.0;
+        System.Security.Cryptography.Encoding|4.3.0;
+        System.Security.Cryptography.Primitives|4.3.0;
+        System.Security.Cryptography.X509Certificates|4.3.0;
+        System.Security.Cryptography.Xml|4.4.0;
+        System.Security.Principal|4.3.0;
+        System.Security.Principal.Windows|4.4.0;
+        System.Text.Encoding|4.3.0;
+        System.Text.Encoding.Extensions|4.3.0;
+        System.Text.RegularExpressions|4.3.0;
+        System.Threading|4.3.0;
+        System.Threading.Overlapped|4.3.0;
+        System.Threading.Tasks|4.3.0;
+        System.Threading.Tasks.Extensions|4.3.0;
+        System.Threading.Tasks.Parallel|4.3.0;
+        System.Threading.Thread|4.3.0;
+        System.Threading.ThreadPool|4.3.0;
+        System.Threading.Timer|4.3.0;
+        System.ValueTuple|4.3.0;
+        System.Xml.ReaderWriter|4.3.0;
+        System.Xml.XDocument|4.3.0;
+        System.Xml.XmlDocument|4.3.0;
+        System.Xml.XmlSerializer|4.3.0;
+        System.Xml.XPath|4.3.0;
+        System.Xml.XPath.XDocument|4.3.0;
+      
+Reference
+    FSharp.Core
+        HintPath = ..\..\packages\FSharp.Core.4.5.2\lib\net45\FSharp.Core.dll
+    mscorlib
+    Newtonsoft.Json
+        HintPath = ..\..\packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll
+    Suave
+        HintPath = ..\..\packages\Suave.2.5.3\lib\net461\Suave.dll
+    System
+    System.Core
+    System.Numerics
+    System.ValueTuple
+        Private = True
+XamlBuildTaskTypeGenerationExtensionName
+    Microsoft.Activities.Build.BeforeInitializeComponentExtension
+        AssemblyName = Microsoft.Activities.Build, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+        Visible = false
+    Microsoft.Activities.Build.Debugger.DebugBuildExtension
+        AssemblyName = Microsoft.Activities.Build, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+        Visible = false
+
+Building with tools version "15.0".
+Target "EnableIntermediateOutputPathMismatchWarning" skipped, due to false condition; ('$(RestoreProjectStyle)' == 'PackageReference') was evaluated as ('' == 'PackageReference').
+Target "_CheckForInvalidConfigurationAndPlatform: (TargetId:2)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj" (target "BeforeRebuild" depends on it):
+Set Property: _InvalidConfigurationMessageText=The OutputPath property is not set for project 'RaynMaker.Cube.Service.fsproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'.
+Set Property: _InvalidConfigurationMessageText=The OutputPath property is not set for project 'RaynMaker.Cube.Service.fsproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'.  You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project.
+Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
+Task "Warning" skipped, due to false condition; ( '$(_InvalidConfigurationWarning)' == 'true' ) was evaluated as ( '' == 'true' ).
+Using "Message" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "Message" (TaskId:2)
+  Task Parameter:Text=Configuration=Debug (TaskId:2)
+  Task Parameter:Importance=Low (TaskId:2)
+  Configuration=Debug (TaskId:2)
+Done executing task "Message". (TaskId:2)
+Task "Message" (TaskId:3)
+  Task Parameter:Text=Platform=AnyCPU (TaskId:3)
+  Task Parameter:Importance=Low (TaskId:3)
+  Platform=AnyCPU (TaskId:3)
+Done executing task "Message". (TaskId:3)
+Task "Error" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('..\..\bin\Debug\' != '' and !HasTrailingSlash('..\..\bin\Debug\')).
+Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
+Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('obj\Debug\' != '' and !HasTrailingSlash('obj\Debug\')).
+Set Property: PlatformTargetAsMSBuildArchitecture=x86
+Task "Error" skipped, due to false condition; ( '$(_InitialMSBuildProjectExtensionsPath)' != '' And '$(MSBuildProjectExtensionsPath)' != '$(_InitialMSBuildProjectExtensionsPath)' ) was evaluated as ( 'C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\' != '' And 'C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\' != 'C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\' ).
+Task "Warning" skipped, due to false condition; ( '$(EnableBaseIntermediateOutputPathMismatchWarning)' == 'true' And '$(_InitialBaseIntermediateOutputPath)' != '$(BaseIntermediateOutputPath)' And '$(BaseIntermediateOutputPath)' != '$(MSBuildProjectExtensionsPath)' ) was evaluated as ( '' == 'true' And 'obj\' != 'obj\' And 'obj\' != 'C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\' ).
+Done building target "_CheckForInvalidConfigurationAndPlatform" in project "RaynMaker.Cube.Service.fsproj".: (TargetId:2)
+Target "BeforeRebuild: (TargetId:3)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj" (target "Rebuild" depends on it):
+Done building target "BeforeRebuild" in project "RaynMaker.Cube.Service.fsproj".: (TargetId:3)
+Target "BeforeClean: (TargetId:4)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj" (target "Clean" depends on it):
+Done building target "BeforeClean" in project "RaynMaker.Cube.Service.fsproj".: (TargetId:4)
+Target "UnmanagedUnregistration" skipped, due to false condition; ((('$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)' or '$(RegisterForComInterop)' != 'true' or '$(OutputType)' != 'library') or
+                    ('$(_AssemblyTimestampBeforeCompile)' == '')) and
+                   Exists('@(_UnmanagedRegistrationCache)')) was evaluated as ((('' != '' or '' != 'true' or 'Exe' != 'library') or
+                    ('' == '')) and
+                   Exists('obj\RaynMaker.Cube.Service.fsproj.UnmanagedRegistration.cache')).
+Target "CoreClean: (TargetId:5)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj" (target "Clean" depends on it):
+Using "Delete" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "Delete" (TaskId:4)
+  Task Parameter:
+      Files=
+          obj\Debug\\TempCA\RaynMaker.Cube.Service.pdb
+          obj\Debug\\TempCA\RaynMaker.Cube.Service.exe (TaskId:4)
+  Task Parameter:TreatErrorsAsWarnings=True (TaskId:4)
+  File "obj\Debug\\TempCA\RaynMaker.Cube.Service.pdb" doesn't exist. Skipping. (TaskId:4)
+  File "obj\Debug\\TempCA\RaynMaker.Cube.Service.exe" doesn't exist. Skipping. (TaskId:4)
+Done executing task "Delete". (TaskId:4)
+Using "ReadLinesFromFile" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "ReadLinesFromFile" (TaskId:5)
+  Task Parameter:File=obj\Debug\RaynMaker.Cube.Service.fsproj.FileListAbsolute.txt (TaskId:5)
+  Output Item(s): 
+      _CleanPriorFileWrites=
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.exe.config
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.XML
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.exe
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.pdb
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\FSharp.Core.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Newtonsoft.Json.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Suave.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\System.ValueTuple.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\FSharp.Core.xml
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Newtonsoft.Json.pdb
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Newtonsoft.Json.xml
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Suave.pdb
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Suave.xml
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\cs\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\de\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\en\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\es\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\fr\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\it\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\ja\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\ko\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\pl\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\pt-BR\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\ru\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\tr\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\zh-Hans\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\zh-Hant\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.fsprojAssemblyReference.cache
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.fsproj.CopyComplete
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.exe
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.pdb
+          C:\Workspace\RaynMaker\RaynMaker.Cube\bin\Debug\RaynMaker.Cube.Service.exe.config
+          C:\Workspace\RaynMaker\RaynMaker.Cube\bin\Debug\RaynMaker.Cube.Service.exe
+          C:\Workspace\RaynMaker\RaynMaker.Cube\bin\Debug\RaynMaker.Cube.Service.pdb (TaskId:5)
+Done executing task "ReadLinesFromFile". (TaskId:5)
+Using "FindUnderPath" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "FindUnderPath" (TaskId:6)
+  Task Parameter:Path=..\..\bin\Debug\ (TaskId:6)
+  Task Parameter:
+      Files=
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.exe.config
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.XML
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.exe
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.pdb
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\FSharp.Core.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Newtonsoft.Json.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Suave.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\System.ValueTuple.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\FSharp.Core.xml
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Newtonsoft.Json.pdb
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Newtonsoft.Json.xml
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Suave.pdb
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Suave.xml
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\cs\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\de\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\en\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\es\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\fr\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\it\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\ja\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\ko\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\pl\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\pt-BR\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\ru\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\tr\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\zh-Hans\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\zh-Hant\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.fsprojAssemblyReference.cache
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.fsproj.CopyComplete
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.exe
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.pdb
+          C:\Workspace\RaynMaker\RaynMaker.Cube\bin\Debug\RaynMaker.Cube.Service.exe.config
+          C:\Workspace\RaynMaker\RaynMaker.Cube\bin\Debug\RaynMaker.Cube.Service.exe
+          C:\Workspace\RaynMaker\RaynMaker.Cube\bin\Debug\RaynMaker.Cube.Service.pdb (TaskId:6)
+  Comparison path is "..\..\bin\Debug\". (TaskId:6)
+  Output Item(s): 
+      _CleanPriorFileWritesInOutput=
+          C:\Workspace\RaynMaker\RaynMaker.Cube\bin\Debug\RaynMaker.Cube.Service.exe.config
+          C:\Workspace\RaynMaker\RaynMaker.Cube\bin\Debug\RaynMaker.Cube.Service.exe
+          C:\Workspace\RaynMaker\RaynMaker.Cube\bin\Debug\RaynMaker.Cube.Service.pdb (TaskId:6)
+Done executing task "FindUnderPath". (TaskId:6)
+Task "FindUnderPath" (TaskId:7)
+  Task Parameter:Path=obj\Debug\ (TaskId:7)
+  Task Parameter:
+      Files=
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.exe.config
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.XML
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.exe
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.pdb
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\FSharp.Core.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Newtonsoft.Json.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Suave.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\System.ValueTuple.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\FSharp.Core.xml
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Newtonsoft.Json.pdb
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Newtonsoft.Json.xml
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Suave.pdb
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Suave.xml
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\cs\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\de\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\en\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\es\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\fr\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\it\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\ja\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\ko\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\pl\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\pt-BR\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\ru\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\tr\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\zh-Hans\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\zh-Hant\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.fsprojAssemblyReference.cache
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.fsproj.CopyComplete
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.exe
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.pdb
+          C:\Workspace\RaynMaker\RaynMaker.Cube\bin\Debug\RaynMaker.Cube.Service.exe.config
+          C:\Workspace\RaynMaker\RaynMaker.Cube\bin\Debug\RaynMaker.Cube.Service.exe
+          C:\Workspace\RaynMaker\RaynMaker.Cube\bin\Debug\RaynMaker.Cube.Service.pdb (TaskId:7)
+  Comparison path is "obj\Debug\". (TaskId:7)
+  Output Item(s): 
+      _CleanPriorFileWritesInIntermediate=
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.fsprojAssemblyReference.cache
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.fsproj.CopyComplete
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.exe
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.pdb (TaskId:7)
+Done executing task "FindUnderPath". (TaskId:7)
+Task "Delete" (TaskId:8)
+  Task Parameter:
+      Files=
+          C:\Workspace\RaynMaker\RaynMaker.Cube\bin\Debug\RaynMaker.Cube.Service.exe.config
+          C:\Workspace\RaynMaker\RaynMaker.Cube\bin\Debug\RaynMaker.Cube.Service.exe
+          C:\Workspace\RaynMaker\RaynMaker.Cube\bin\Debug\RaynMaker.Cube.Service.pdb
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.fsprojAssemblyReference.cache
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.fsproj.CopyComplete
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.exe
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.pdb (TaskId:8)
+  Task Parameter:TreatErrorsAsWarnings=True (TaskId:8)
+  File "C:\Workspace\RaynMaker\RaynMaker.Cube\bin\Debug\RaynMaker.Cube.Service.exe.config" doesn't exist. Skipping. (TaskId:8)
+  File "C:\Workspace\RaynMaker\RaynMaker.Cube\bin\Debug\RaynMaker.Cube.Service.exe" doesn't exist. Skipping. (TaskId:8)
+  File "C:\Workspace\RaynMaker\RaynMaker.Cube\bin\Debug\RaynMaker.Cube.Service.pdb" doesn't exist. Skipping. (TaskId:8)
+  File "C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.fsprojAssemblyReference.cache" doesn't exist. Skipping. (TaskId:8)
+  File "C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.fsproj.CopyComplete" doesn't exist. Skipping. (TaskId:8)
+  File "C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.exe" doesn't exist. Skipping. (TaskId:8)
+  File "C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.pdb" doesn't exist. Skipping. (TaskId:8)
+  Output Item(s): 
+      _CleanPriorFileWritesDeleted=
+          C:\Workspace\RaynMaker\RaynMaker.Cube\bin\Debug\RaynMaker.Cube.Service.exe.config
+                  OriginalItemSpec=C:\Workspace\RaynMaker\RaynMaker.Cube\bin\Debug\RaynMaker.Cube.Service.exe.config
+          C:\Workspace\RaynMaker\RaynMaker.Cube\bin\Debug\RaynMaker.Cube.Service.exe
+                  OriginalItemSpec=C:\Workspace\RaynMaker\RaynMaker.Cube\bin\Debug\RaynMaker.Cube.Service.exe
+          C:\Workspace\RaynMaker\RaynMaker.Cube\bin\Debug\RaynMaker.Cube.Service.pdb
+                  OriginalItemSpec=C:\Workspace\RaynMaker\RaynMaker.Cube\bin\Debug\RaynMaker.Cube.Service.pdb
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.fsprojAssemblyReference.cache
+                  OriginalItemSpec=C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.fsprojAssemblyReference.cache
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.fsproj.CopyComplete
+                  OriginalItemSpec=C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.fsproj.CopyComplete
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.exe
+                  OriginalItemSpec=C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.exe
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.pdb
+                  OriginalItemSpec=C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.pdb (TaskId:8)
+Done executing task "Delete". (TaskId:8)
+Added Item(s): 
+    _CleanRemainingFileWritesAfterClean=
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.exe.config
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.XML
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.exe
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.pdb
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\FSharp.Core.dll
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Newtonsoft.Json.dll
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Suave.dll
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\System.ValueTuple.dll
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\FSharp.Core.xml
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Newtonsoft.Json.pdb
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Newtonsoft.Json.xml
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Suave.pdb
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Suave.xml
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\cs\FSharp.Core.resources.dll
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\de\FSharp.Core.resources.dll
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\en\FSharp.Core.resources.dll
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\es\FSharp.Core.resources.dll
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\fr\FSharp.Core.resources.dll
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\it\FSharp.Core.resources.dll
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\ja\FSharp.Core.resources.dll
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\ko\FSharp.Core.resources.dll
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\pl\FSharp.Core.resources.dll
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\pt-BR\FSharp.Core.resources.dll
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\ru\FSharp.Core.resources.dll
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\tr\FSharp.Core.resources.dll
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\zh-Hans\FSharp.Core.resources.dll
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\zh-Hant\FSharp.Core.resources.dll
+Using "RemoveDuplicates" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "RemoveDuplicates" (TaskId:9)
+  Task Parameter:
+      Inputs=
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.exe.config
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.XML
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.exe
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.pdb
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\FSharp.Core.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Newtonsoft.Json.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Suave.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\System.ValueTuple.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\FSharp.Core.xml
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Newtonsoft.Json.pdb
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Newtonsoft.Json.xml
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Suave.pdb
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Suave.xml
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\cs\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\de\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\en\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\es\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\fr\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\it\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\ja\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\ko\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\pl\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\pt-BR\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\ru\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\tr\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\zh-Hans\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\zh-Hant\FSharp.Core.resources.dll (TaskId:9)
+  Output Item(s): 
+      _CleanUniqueRemainingFileWrites=
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.exe.config
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.XML
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.exe
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.pdb
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\FSharp.Core.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Newtonsoft.Json.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Suave.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\System.ValueTuple.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\FSharp.Core.xml
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Newtonsoft.Json.pdb
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Newtonsoft.Json.xml
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Suave.pdb
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Suave.xml
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\cs\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\de\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\en\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\es\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\fr\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\it\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\ja\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\ko\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\pl\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\pt-BR\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\ru\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\tr\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\zh-Hans\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\zh-Hant\FSharp.Core.resources.dll (TaskId:9)
+Done executing task "RemoveDuplicates". (TaskId:9)
+Using "MakeDir" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "MakeDir" (TaskId:10)
+  Task Parameter:Directories=obj\Debug\ (TaskId:10)
+Done executing task "MakeDir". (TaskId:10)
+Using "WriteLinesToFile" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "WriteLinesToFile" (TaskId:11)
+  Task Parameter:File=obj\Debug\RaynMaker.Cube.Service.fsproj.FileListAbsolute.txt (TaskId:11)
+  Task Parameter:
+      Lines=
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.exe.config
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.XML
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.exe
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.pdb
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\FSharp.Core.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Newtonsoft.Json.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Suave.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\System.ValueTuple.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\FSharp.Core.xml
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Newtonsoft.Json.pdb
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Newtonsoft.Json.xml
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Suave.pdb
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Suave.xml
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\cs\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\de\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\en\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\es\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\fr\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\it\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\ja\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\ko\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\pl\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\pt-BR\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\ru\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\tr\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\zh-Hans\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\zh-Hant\FSharp.Core.resources.dll (TaskId:11)
+  Task Parameter:Overwrite=True (TaskId:11)
+Done executing task "WriteLinesToFile". (TaskId:11)
+Done building target "CoreClean" in project "RaynMaker.Cube.Service.fsproj".: (TargetId:5)
+Target "AssignProjectConfiguration" skipped, due to false condition; ('$(CurrentSolutionConfigurationContents)' != '' or '@(ProjectReference)'!='') was evaluated as ('' != '' or ''!='').
+Target "_SplitProjectReferencesByFileExistence: (TargetId:6)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj" (target "PrepareProjectReferences" depends on it):
+Task "ResolveNonMSBuildProjectOutput" skipped, due to false condition; ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') was evaluated as (''=='true' and ''!='').
+Done building target "_SplitProjectReferencesByFileExistence" in project "RaynMaker.Cube.Service.fsproj".: (TargetId:6)
+Target "_GetProjectReferenceTargetFrameworkProperties: (TargetId:7)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj" (target "PrepareProjectReferences" depends on it):
+Set Property: ReferringTargetFrameworkForProjectReferences=.NETFramework,Version=v4.7.2
+Using "MSBuild" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "MSBuild" (TaskId:12)
+  Task Parameter:Targets=GetTargetFrameworks (TaskId:12)
+  Task Parameter:BuildInParallel=True (TaskId:12)
+  Task Parameter:RemoveProperties=;TargetFramework;RuntimeIdentifier (TaskId:12)
+  Task Parameter:SkipNonexistentTargets=True (TaskId:12)
+Done executing task "MSBuild". (TaskId:12)
+Task "GetReferenceNearestTargetFrameworkTask" skipped, due to false condition; ('@(_ProjectReferenceTargetFrameworkPossibilities->Count())' != '0' and '$(ReferringTargetFrameworkForProjectReferences)' != '') was evaluated as ('0' != '0' and '.NETFramework,Version=v4.7.2' != '').
+Done building target "_GetProjectReferenceTargetFrameworkProperties" in project "RaynMaker.Cube.Service.fsproj".: (TargetId:7)
+Target "PrepareProjectReferences: (TargetId:8)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj" (target "CleanReferencedProjects" depends on it):
+Done building target "PrepareProjectReferences" in project "RaynMaker.Cube.Service.fsproj".: (TargetId:8)
+Target "CleanReferencedProjects: (TargetId:9)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj" (target "Clean" depends on it):
+Task "MSBuild" skipped, due to false condition; ('$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' != 'true' and 'true' == 'true' and '' != '').
+Done building target "CleanReferencedProjects" in project "RaynMaker.Cube.Service.fsproj".: (TargetId:9)
+Target "CleanPublishFolder: (TargetId:10)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj" (target "Clean" depends on it):
+Task "RemoveDir" skipped, due to false condition; ('$(PublishDir)'=='$(OutputPath)app.publish\' and Exists('$(PublishDir)')) was evaluated as ('..\..\bin\Debug\app.publish\'=='..\..\bin\Debug\app.publish\' and Exists('..\..\bin\Debug\app.publish\')).
+Done building target "CleanPublishFolder" in project "RaynMaker.Cube.Service.fsproj".: (TargetId:10)
+Target "AfterClean: (TargetId:11)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj" (target "Clean" depends on it):
+Done building target "AfterClean" in project "RaynMaker.Cube.Service.fsproj".: (TargetId:11)
+Target "EntityClean" skipped, due to false condition; ('@(EntityDeploy)' != '') was evaluated as ('' != '').
+Target "Clean: (TargetId:12)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj" (target "Rebuild" depends on it):
+Done building target "Clean" in project "RaynMaker.Cube.Service.fsproj".: (TargetId:12)
+Target "EntityDeploy" skipped, due to false condition; ('@(EntityDeploy)' != '') was evaluated as ('' != '').
+Target "BeforeBuild: (TargetId:13)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj" (target "Build" depends on it):
+Done building target "BeforeBuild" in project "RaynMaker.Cube.Service.fsproj".: (TargetId:13)
+Target "BuildOnlySettings: (TargetId:14)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj" (target "CoreBuild" depends on it):
+Set Property: BuildingProject=true
+Done building target "BuildOnlySettings" in project "RaynMaker.Cube.Service.fsproj".: (TargetId:14)
+Target "GetFrameworkPaths: (TargetId:15)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.NETFramework.CurrentVersion.targets" from project "C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj" (target "PrepareForBuild" depends on it):
+Added Item(s): _TargetFramework40DirectoryItem=C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319
+Added Item(s): _TargetFramework35DirectoryItem=C:\WINDOWS\Microsoft.NET\Framework\v3.5
+Added Item(s): _TargetFramework30DirectoryItem=C:\WINDOWS\Microsoft.NET\Framework\v3.0
+Added Item(s): _TargetFramework20DirectoryItem=C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727
+Added Item(s): _TargetedFrameworkDirectoryItem=C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319
+Added Item(s): _CombinedTargetFrameworkDirectoriesItem=C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319
+Set Property: TargetFrameworkDirectory=C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319
+Set Property: TargetFrameworkSDKDirectory=C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\
+Added Item(s): _TargetFrameworkSDKDirectoryItem=C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\
+Done building target "GetFrameworkPaths" in project "RaynMaker.Cube.Service.fsproj".: (TargetId:15)
+Target "GetWinFXPath" skipped, due to false condition; (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) was evaluated as (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )).
+Target "GetFrameworkPaths" skipped. Previously built successfully.
+Target "GetReferenceAssemblyPaths: (TargetId:16)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj" (target "PrepareForBuild" depends on it):
+Set Property: TargetFrameworkDirectory=
+Using "GetReferenceAssemblyPaths" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "GetReferenceAssemblyPaths" (TaskId:13)
+  Task Parameter:TargetFrameworkMoniker=.NETFramework,Version=v4.7.2 (TaskId:13)
+  Output Property: _TargetFrameworkDirectories=C:\Program Files %28x86%29\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\ (TaskId:13)
+  Output Property: _FullFrameworkReferenceAssemblyPaths=C:\Program Files %28x86%29\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\ (TaskId:13)
+  Output Property: TargetFrameworkMonikerDisplayName=.NET Framework 4.7.2 (TaskId:13)
+Done executing task "GetReferenceAssemblyPaths". (TaskId:13)
+Set Property: TargetFrameworkDirectory=C:\Program Files %28x86%29\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\;;
+Set Property: RemoveAssemblyFoldersIfNoTargetFramework=true
+Added Item(s): DesignTimeFacadeDirectoryRoots=C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\
+Added Item(s): DesignTimeFacadeDirectories=C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\
+Set Property: TargetFrameworkDirectory=C:\Program Files %28x86%29\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\;;;C:\Program Files %28x86%29\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\
+Done building target "GetReferenceAssemblyPaths" in project "RaynMaker.Cube.Service.fsproj".: (TargetId:16)
+Target "AssignLinkMetadata" skipped, due to false condition; ( '$(SynthesizeLinkMetadata)' == 'true' ) was evaluated as ( '' == 'true' ).
+Target "GenerateFSharpTextResources: (TargetId:17)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\FSharp\Microsoft.FSharp.targets" from project "C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj" (target "PrepareForBuild" depends on it):
+Task "MakeDir" (TaskId:14)
+  Task Parameter:Directories=obj\Debug\ (TaskId:14)
+Done executing task "MakeDir". (TaskId:14)
+Using "FSharpEmbedResXSource" task from assembly "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\FSharp\FSharp.Build.dll".
+Task "FSharpEmbedResXSource" (TaskId:15)
+  Task Parameter:IntermediateOutputPath=obj\Debug\ (TaskId:15)
+Done executing task "FSharpEmbedResXSource". (TaskId:15)
+Using "FSharpEmbedResourceText" task from assembly "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\FSharp\FSharp.Build.dll".
+Task "FSharpEmbedResourceText" (TaskId:16)
+  Task Parameter:IntermediateOutputPath=obj\Debug\ (TaskId:16)
+Done executing task "FSharpEmbedResourceText". (TaskId:16)
+Done building target "GenerateFSharpTextResources" in project "RaynMaker.Cube.Service.fsproj".: (TargetId:17)
+Target "PrepareForBuild: (TargetId:18)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj" (target "CoreBuild" depends on it):
+Using "FindAppConfigFile" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "FindAppConfigFile" (TaskId:17)
+  Task Parameter:PrimaryList=App.config (TaskId:17)
+  Task Parameter:SecondaryList=packages.config (TaskId:17)
+  Task Parameter:TargetPath=RaynMaker.Cube.Service.exe.config (TaskId:17)
+  Found "App.config". (TaskId:17)
+  Output Item(s): 
+      AppConfigWithTargetPath=
+          App.config
+                  OriginalItemSpec=App.config
+                  TargetPath=RaynMaker.Cube.Service.exe.config (TaskId:17)
+  Output Property: AppConfig=App.config (TaskId:17)
+Done executing task "FindAppConfigFile". (TaskId:17)
+Task "MakeDir" (TaskId:18)
+  Task Parameter:
+      Directories=
+          ..\..\bin\Debug\
+          obj\Debug\ (TaskId:18)
+Done executing task "MakeDir". (TaskId:18)
+Done building target "PrepareForBuild" in project "RaynMaker.Cube.Service.fsproj".: (TargetId:18)
+Target "PreBuildEvent" skipped, due to false condition; ('$(PreBuildEvent)'!='') was evaluated as (''!='').
+Target "BeforeResolveReferences: (TargetId:19)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj" (target "ResolveReferences" depends on it):
+Done building target "BeforeResolveReferences" in project "RaynMaker.Cube.Service.fsproj".: (TargetId:19)
+Target "AssignProjectConfiguration" skipped, due to false condition; ('$(CurrentSolutionConfigurationContents)' != '' or '@(ProjectReference)'!='') was evaluated as ('' != '' or ''!='').
+Target "PrepareProjectReferences" skipped. Previously built successfully.
+Target "ResolveProjectReferences: (TargetId:20)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj" (target "ResolveReferences" depends on it):
+Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('' == 'true' or 'true' != 'true') and '15.0' != '10.0' and '' != '').
+Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' == '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('' == 'true' or 'true' != 'true') and '15.0' == '10.0' and '' != '').
+Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and '' != 'true' and 'true' == 'true' and '' != '').
+Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' == 'true' and '' != '').
+Task "Warning" skipped, due to false condition; ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') was evaluated as ('' != '' and '' != '').
+Done building target "ResolveProjectReferences" in project "RaynMaker.Cube.Service.fsproj".: (TargetId:20)
+Target "FindInvalidProjectReferences" skipped, due to false condition; ('$(FindInvalidProjectReferences)' == 'true') was evaluated as ('' == 'true').
+Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
+Target "ResolveProjectReferences" skipped. Previously built successfully.
+Target "FindInvalidProjectReferences" skipped, due to false condition; ('$(FindInvalidProjectReferences)' == 'true') was evaluated as ('' == 'true').
+Target "GetFrameworkPaths" skipped. Previously built successfully.
+Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+Target "PrepareForBuild" skipped. Previously built successfully.
+Target "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '') was evaluated as ('' != '').
+Target "ResolveSDKReferences: (TargetId:21)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj" (target "ResolveAssemblyReferences" depends on it):
+Task "ResolveSDKReference" skipped, due to false condition; ('@(SDKReference)'!='') was evaluated as (''!='').
+Done building target "ResolveSDKReferences" in project "RaynMaker.Cube.Service.fsproj".: (TargetId:21)
+Target "ResolveSDKReferences" skipped. Previously built successfully.
+Target "ExpandSDKReferences: (TargetId:22)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj" (target "ResolveAssemblyReferences" depends on it):
+Task "GetSDKReferenceFiles" skipped, due to false condition; ('@(ResolvedSDKReference)'!='') was evaluated as (''!='').
+Done building target "ExpandSDKReferences" in project "RaynMaker.Cube.Service.fsproj".: (TargetId:22)
+Target "ResolveProjectReferences" skipped. Previously built successfully.
+Target "ResolveNuGetPackageAssets: (TargetId:23)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\NuGet\15.0\Microsoft.NuGet.targets" from project "C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj" (target "ResolveAssemblyReferences" depends on it):
+Using "ResolveNuGetPackageAssets" task from assembly "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\NuGet\15.0\Microsoft.NuGet.Build.Tasks.dll".
+Task "ResolveNuGetPackageAssets" (TaskId:19)
+  Task Parameter:IncludeFrameworkReferences=True (TaskId:19)
+  Task Parameter:RuntimeIdentifier=win (TaskId:19)
+  Task Parameter:ProjectLanguage=F# (TaskId:19)
+  Task Parameter:ProjectLockFile=C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\project.assets.json (TaskId:19)
+  Task Parameter:
+      ContentPreprocessorValues=
+          rootnamespace
+                  Value=RaynMaker.Cube.Service
+          assemblyname
+                  Value=RaynMaker.Cube.Service
+          fullpath
+                  Value=C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service
+          outputfilename
+                  Value=RaynMaker.Cube.Service.exe
+          filename
+                  Value=RaynMaker.Cube.Service.fsproj (TaskId:19)
+  Task Parameter:ContentPreprocessorOutputDirectory=obj\Debug\\NuGet (TaskId:19)
+  Task Parameter:TargetMonikers=.NETFramework,Version=v4.7.2 (TaskId:19)
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\NuGet\15.0\Microsoft.NuGet.targets(186,5): error : Your project file doesn't list 'win' as a "RuntimeIdentifier". You should add 'win' to the "RuntimeIdentifiers" property in your project file and then re-run NuGet restore. [C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj]
+  Output Item(s): 
+      _ReferencesFromNuGetPackages=
+          C:\Users\ssmosett\.nuget\packages\fsharp.core\4.5.2\lib\net45\FSharp.Core.dll
+                  NuGetIsFrameworkReference=false
+                  NuGetPackageId=FSharp.Core
+                  NuGetPackageVersion=4.5.2
+                  NuGetSourceType=Package
+                  Private=false
+          C:\Users\ssmosett\.nuget\packages\fsharp.core\4.5.2\lib\net45\FSharp.Core.resources.dll
+                  NuGetIsFrameworkReference=false
+                  NuGetPackageId=FSharp.Core
+                  NuGetPackageVersion=4.5.2
+                  NuGetSourceType=Package
+                  Private=false
+          C:\Users\ssmosett\.nuget\packages\newtonsoft.json\12.0.1\lib\net45\Newtonsoft.Json.dll
+                  NuGetIsFrameworkReference=false
+                  NuGetPackageId=Newtonsoft.Json
+                  NuGetPackageVersion=12.0.1
+                  NuGetSourceType=Package
+                  Private=false
+          C:\Users\ssmosett\.nuget\packages\suave\2.5.3\lib\net461\Suave.dll
+                  NuGetIsFrameworkReference=false
+                  NuGetPackageId=Suave
+                  NuGetPackageVersion=2.5.3
+                  NuGetSourceType=Package
+                  Private=false (TaskId:19)
+Done executing task "ResolveNuGetPackageAssets" -- FAILED. (TaskId:19)
+Done building target "ResolveNuGetPackageAssets" in project "RaynMaker.Cube.Service.fsproj" -- FAILED.: (TargetId:23)
+Target "_CheckForCompileOutputs: (TargetId:24)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj" (target "_CleanGetCurrentAndPriorFileWrites" depends on it):
+Set Property: _DocumentationFileProduced=false
+Set Property: _DebugSymbolsProduced=false
+Done building target "_CheckForCompileOutputs" in project "RaynMaker.Cube.Service.fsproj".: (TargetId:24)
+Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
+Target "_CleanGetCurrentAndPriorFileWrites: (TargetId:25)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj" (target "_CleanRecordFileWrites" depends on it):
+Task "ReadLinesFromFile" (TaskId:20)
+  Task Parameter:File=obj\Debug\RaynMaker.Cube.Service.fsproj.FileListAbsolute.txt (TaskId:20)
+  Output Item(s): 
+      _CleanUnfilteredPriorFileWrites=
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.exe.config
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.XML
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.exe
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.pdb
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\FSharp.Core.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Newtonsoft.Json.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Suave.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\System.ValueTuple.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\FSharp.Core.xml
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Newtonsoft.Json.pdb
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Newtonsoft.Json.xml
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Suave.pdb
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Suave.xml
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\cs\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\de\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\en\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\es\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\fr\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\it\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\ja\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\ko\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\pl\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\pt-BR\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\ru\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\tr\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\zh-Hans\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\zh-Hant\FSharp.Core.resources.dll (TaskId:20)
+Done executing task "ReadLinesFromFile". (TaskId:20)
+Using "ConvertToAbsolutePath" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "ConvertToAbsolutePath" (TaskId:21)
+Done executing task "ConvertToAbsolutePath". (TaskId:21)
+Added Item(s): 
+    _CleanPriorFileWrites=
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.exe.config
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.XML
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.exe
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.pdb
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\FSharp.Core.dll
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Newtonsoft.Json.dll
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Suave.dll
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\System.ValueTuple.dll
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\FSharp.Core.xml
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Newtonsoft.Json.pdb
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Newtonsoft.Json.xml
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Suave.pdb
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Suave.xml
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\cs\FSharp.Core.resources.dll
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\de\FSharp.Core.resources.dll
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\en\FSharp.Core.resources.dll
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\es\FSharp.Core.resources.dll
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\fr\FSharp.Core.resources.dll
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\it\FSharp.Core.resources.dll
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\ja\FSharp.Core.resources.dll
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\ko\FSharp.Core.resources.dll
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\pl\FSharp.Core.resources.dll
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\pt-BR\FSharp.Core.resources.dll
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\ru\FSharp.Core.resources.dll
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\tr\FSharp.Core.resources.dll
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\zh-Hans\FSharp.Core.resources.dll
+        C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\zh-Hant\FSharp.Core.resources.dll
+Task "FindUnderPath" (TaskId:22)
+  Task Parameter:Path=C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service (TaskId:22)
+  Task Parameter:UpdateToAbsolutePaths=True (TaskId:22)
+  Comparison path is "C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service". (TaskId:22)
+Done executing task "FindUnderPath". (TaskId:22)
+Task "FindUnderPath" (TaskId:23)
+  Task Parameter:Path=..\..\bin\Debug\ (TaskId:23)
+  Task Parameter:UpdateToAbsolutePaths=True (TaskId:23)
+  Comparison path is "..\..\bin\Debug\". (TaskId:23)
+Done executing task "FindUnderPath". (TaskId:23)
+Task "FindUnderPath" (TaskId:24)
+  Task Parameter:Path=obj\Debug\ (TaskId:24)
+  Task Parameter:UpdateToAbsolutePaths=True (TaskId:24)
+  Comparison path is "obj\Debug\". (TaskId:24)
+Done executing task "FindUnderPath". (TaskId:24)
+Task "RemoveDuplicates" (TaskId:25)
+Done executing task "RemoveDuplicates". (TaskId:25)
+Done building target "_CleanGetCurrentAndPriorFileWrites" in project "RaynMaker.Cube.Service.fsproj".: (TargetId:25)
+Target "_CleanRecordFileWrites: (TargetId:26)" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj" (target "CoreBuild" depends on it):
+Task "RemoveDuplicates" (TaskId:26)
+  Task Parameter:
+      Inputs=
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.exe.config
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.XML
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.exe
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.pdb
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\FSharp.Core.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Newtonsoft.Json.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Suave.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\System.ValueTuple.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\FSharp.Core.xml
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Newtonsoft.Json.pdb
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Newtonsoft.Json.xml
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Suave.pdb
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Suave.xml
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\cs\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\de\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\en\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\es\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\fr\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\it\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\ja\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\ko\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\pl\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\pt-BR\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\ru\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\tr\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\zh-Hans\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\zh-Hant\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.fsprojAssemblyReference.cache
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.fsproj.CopyComplete
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.exe
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.pdb
+          C:\Workspace\RaynMaker\RaynMaker.Cube\bin\Debug\RaynMaker.Cube.Service.exe.config
+          C:\Workspace\RaynMaker\RaynMaker.Cube\bin\Debug\RaynMaker.Cube.Service.exe
+          C:\Workspace\RaynMaker\RaynMaker.Cube\bin\Debug\RaynMaker.Cube.Service.pdb
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.exe.config
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.XML
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.exe
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.pdb
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\FSharp.Core.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Newtonsoft.Json.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Suave.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\System.ValueTuple.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\FSharp.Core.xml
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Newtonsoft.Json.pdb
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Newtonsoft.Json.xml
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Suave.pdb
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Suave.xml
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\cs\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\de\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\en\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\es\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\fr\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\it\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\ja\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\ko\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\pl\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\pt-BR\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\ru\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\tr\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\zh-Hans\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\zh-Hant\FSharp.Core.resources.dll (TaskId:26)
+  Output Item(s): 
+      _CleanUniqueFileWrites=
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.exe.config
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.XML
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.exe
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.pdb
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\FSharp.Core.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Newtonsoft.Json.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Suave.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\System.ValueTuple.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\FSharp.Core.xml
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Newtonsoft.Json.pdb
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Newtonsoft.Json.xml
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Suave.pdb
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Suave.xml
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\cs\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\de\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\en\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\es\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\fr\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\it\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\ja\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\ko\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\pl\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\pt-BR\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\ru\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\tr\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\zh-Hans\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\zh-Hant\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.fsprojAssemblyReference.cache
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.fsproj.CopyComplete
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.exe
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.pdb
+          C:\Workspace\RaynMaker\RaynMaker.Cube\bin\Debug\RaynMaker.Cube.Service.exe.config
+          C:\Workspace\RaynMaker\RaynMaker.Cube\bin\Debug\RaynMaker.Cube.Service.exe
+          C:\Workspace\RaynMaker\RaynMaker.Cube\bin\Debug\RaynMaker.Cube.Service.pdb (TaskId:26)
+Done executing task "RemoveDuplicates". (TaskId:26)
+Task "MakeDir" (TaskId:27)
+  Task Parameter:Directories=obj\Debug\ (TaskId:27)
+Done executing task "MakeDir". (TaskId:27)
+Task "WriteLinesToFile" (TaskId:28)
+  Task Parameter:File=obj\Debug\RaynMaker.Cube.Service.fsproj.FileListAbsolute.txt (TaskId:28)
+  Task Parameter:
+      Lines=
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.exe.config
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.XML
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.exe
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\RaynMaker.Cube.Service.pdb
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\FSharp.Core.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Newtonsoft.Json.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Suave.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\System.ValueTuple.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\FSharp.Core.xml
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Newtonsoft.Json.pdb
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Newtonsoft.Json.xml
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Suave.pdb
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\Suave.xml
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\cs\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\de\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\en\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\es\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\fr\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\it\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\ja\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\ko\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\pl\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\pt-BR\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\ru\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\tr\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\zh-Hans\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\bin\Debug\zh-Hant\FSharp.Core.resources.dll
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.fsprojAssemblyReference.cache
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.fsproj.CopyComplete
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.exe
+          C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\obj\Debug\RaynMaker.Cube.Service.pdb
+          C:\Workspace\RaynMaker\RaynMaker.Cube\bin\Debug\RaynMaker.Cube.Service.exe.config
+          C:\Workspace\RaynMaker\RaynMaker.Cube\bin\Debug\RaynMaker.Cube.Service.exe
+          C:\Workspace\RaynMaker\RaynMaker.Cube\bin\Debug\RaynMaker.Cube.Service.pdb (TaskId:28)
+  Task Parameter:Overwrite=True (TaskId:28)
+Done executing task "WriteLinesToFile". (TaskId:28)
+Done building target "_CleanRecordFileWrites" in project "RaynMaker.Cube.Service.fsproj".: (TargetId:26)
+Done Building Project "C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj" (rebuild target(s)) -- FAILED.
+Deferred Messages
+
+Detailed Build Summary
+======================
+     (TaskId:0)
+  
+  ============================== Build Hierarchy (IDs represent configurations) =====================================================
+  Id                  : Exclusive Time   Total Time   Path (Targets)
+  ----------------------------------------------------------------------------------------------------------------------------------- (TaskId:0)
+  0                   : 0.895s           0.895s       C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj (rebuild)  (TaskId:0)
+  
+  ============================== Node Utilization (IDs represent configurations) ====================================================
+  Timestamp:            1        Duration   Cumulative
+  ----------------------------------------------------------------------------------------------------------------------------------- (TaskId:0)
+  636817011712552956:   0        0,899s     0,899s ################# (TaskId:0)
+  -----------------------------------------------------------------------------------------------------------------------------------
+  Utilization:          100,0    Average Utilization: 100,0 (TaskId:0)
+
+Project Evaluation Performance Summary:
+      336 ms  C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj   1 calls
+
+Project Performance Summary:
+      468 ms  C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj   1 calls
+                468 ms  rebuild                                    1 calls
+
+Target Performance Summary:
+        0 ms  BuildOnlySettings                          1 calls
+        0 ms  BeforeBuild                                1 calls
+        0 ms  Clean                                      1 calls
+        0 ms  AfterClean                                 1 calls
+        0 ms  BeforeResolveReferences                    1 calls
+        0 ms  PrepareProjectReferences                   1 calls
+        0 ms  CleanPublishFolder                         1 calls
+        0 ms  BeforeClean                                1 calls
+        0 ms  BeforeRebuild                              1 calls
+        1 ms  ExpandSDKReferences                        1 calls
+        1 ms  ResolveSDKReferences                       1 calls
+        1 ms  _CheckForCompileOutputs                    1 calls
+        1 ms  CleanReferencedProjects                    1 calls
+        3 ms  GetFrameworkPaths                          1 calls
+        6 ms  PrepareForBuild                            1 calls
+        7 ms  _SplitProjectReferencesByFileExistence     1 calls
+        7 ms  _CleanGetCurrentAndPriorFileWrites         1 calls
+       10 ms  _CleanRecordFileWrites                     1 calls
+       17 ms  GetReferenceAssemblyPaths                  1 calls
+       18 ms  _GetProjectReferenceTargetFrameworkProperties   1 calls
+       20 ms  ResolveProjectReferences                   1 calls
+       30 ms  GenerateFSharpTextResources                1 calls
+       69 ms  ResolveNuGetPackageAssets                  1 calls
+       74 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+       93 ms  CoreClean                                  1 calls
+
+Task Performance Summary:
+        1 ms  ConvertToAbsolutePath                      1 calls
+        3 ms  FindAppConfigFile                          1 calls
+        4 ms  RemoveDuplicates                           3 calls
+        6 ms  MakeDir                                    4 calls
+        8 ms  MSBuild                                    1 calls
+        8 ms  FSharpEmbedResourceText                    1 calls
+       10 ms  GetReferenceAssemblyPaths                  1 calls
+       11 ms  FSharpEmbedResXSource                      1 calls
+       14 ms  ReadLinesFromFile                          2 calls
+       17 ms  WriteLinesToFile                           2 calls
+       20 ms  FindUnderPath                              5 calls
+       24 ms  Message                                    2 calls
+       33 ms  Delete                                     2 calls
+       67 ms  ResolveNuGetPackageAssets                  1 calls
+
+Build FAILED.
+
+"C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj" (rebuild target) (1) ->
+(ResolveNuGetPackageAssets target) -> 
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\NuGet\15.0\Microsoft.NuGet.targets(186,5): error : Your project file doesn't list 'win' as a "RuntimeIdentifier". You should add 'win' to the "RuntimeIdentifiers" property in your project file and then re-run NuGet restore. [C:\Workspace\RaynMaker\RaynMaker.Cube\src\RaynMaker.Cube.Service\RaynMaker.Cube.Service.fsproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.99

@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <PackageTargetFallback>netcoreapp2.1</PackageTargetFallback>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <Compile Include="Properties/AssemblyInfo.cs"/>
+  </ItemGroup>
+
+  <Target Name="npm" AfterTargets="Build">
+    <Exec Condition="$(Configuration) == 'Debug'" Command="npm run build-dev" />
+    <Exec Condition="$(Configuration) == 'Release'" Command="npm run build-prod" />
+  </Target>
+</Project>
