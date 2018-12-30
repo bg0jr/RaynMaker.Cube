@@ -2,9 +2,14 @@
   <div>
     <h1>Explore</h1>
 
-    <form id="filter">
-      <label>Filter: </label>
-      <input name="query" v-model="filter">
+    <form>
+      <label>Select a case: </label>
+      <select v-model="selectedCase">
+        <option disabled value="">Please select one</option>
+        <option v-for="c in cases" v-bind:value="c.id">
+          {{ c.name }}
+        </option>
+      </select>
     </form>
 
     <bar-chart :width="400" :height="400" :data="dividend.data" :labels="dividend.labels"></bar-chart>
@@ -19,7 +24,8 @@
     name: 'Explore',
     data () {
       return {
-        filter: '',
+        selectedCase: '',
+        cases: null,
         dividend: {
           data: null,
           labels: null
@@ -30,10 +36,17 @@
       'bar-chart': BarChart
     },
     created: function () {
-      this.get(this, '/api/Explore', {}, function (that, response) {
-        that.dividend.data = response.data
-        that.dividend.labels = response.labels
+      this.get(this, '/api/Explore', null, function (that, response) {
+        that.cases = response
       })
+    },
+    watch: {
+      selectedCase: function (val) {
+        this.get(this, '/api/Case', { 'id': val }, function (that, response) {
+          that.dividend.data = response.data
+          that.dividend.labels = response.labels
+        })
+      }
     },
     mixins: [ my.webApi ]
   }

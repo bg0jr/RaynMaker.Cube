@@ -31,6 +31,15 @@ module Controllers =
         let formatPrice = sprintf "%.2f"
         
     let explore storeHome = 
+        [
+            dict [ "id" => "US123"; "name" => "IBM" ]
+            dict [ "id" => "US789"; "name" => "Apple" ]
+            dict [ "id" => "DE456"; "name" => "Siemens" ]
+        ]
+        |> JSON
+                        
+    let case storeHome id = 
+        printfn "%s" id
         dict [
             "labels" => [ "2010"; "2011"; "2012"; "2013"; "2014"; "2015"; "2016"; "2017"; "2018" ]
             "data" => [ 2.0; 2.0; 2.1; 2.0; 2.2; 2.1; 2.3; 2.3; 2.4; ]

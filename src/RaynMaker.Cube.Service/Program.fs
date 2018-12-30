@@ -56,6 +56,9 @@ let start storeHome =
                     pathScan "/Client/%s" (fun f -> Files.file (sprintf "%s/Client/%s" home f))
                     pathScan "/static/%s" (fun f -> Files.file (sprintf "%s/Client/static/%s" home f))
                     path "/api/Explore" >=> warbler (fun _ -> Controllers.explore storeHome)
+                    path "/api/Case" >=> warbler (fun c ->  match c.request.queryParam "id" with
+                                                            | Choice1Of2 id -> id |> Controllers.case storeHome
+                                                            | Choice2Of2 msg -> BAD_REQUEST msg)
                     NOT_FOUND "Resource not found."
                 ]
         ]
