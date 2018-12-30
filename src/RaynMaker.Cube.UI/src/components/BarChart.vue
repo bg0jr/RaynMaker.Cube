@@ -7,7 +7,8 @@
     name: 'bar-chart',
     props: {
       data: Array,
-      labels: Array
+      labels: Array,
+      title: String
     },
     mounted () {
       this.render()
@@ -31,6 +32,13 @@
             backgroundColor: 'green'
           }]
         }, {
+          title: {
+            text: this.title,
+            display: true
+          },
+          legend: {
+            display: false
+          },
           responsive: false,
           maintainAspectRatio: false,
           scales: {

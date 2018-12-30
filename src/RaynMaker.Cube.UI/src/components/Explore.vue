@@ -12,7 +12,7 @@
       </select>
     </form>
 
-    <bar-chart :width="400" :height="400" :data="dividend.data" :labels="dividend.labels"></bar-chart>
+    <bar-chart v-for="c in charts" :key="c.title" :width="300" :height="300" :data="c.data" :labels="c.labels" :title="c.title"></bar-chart>
   </div>
 </template>
 
@@ -26,10 +26,7 @@
       return {
         selectedCase: '',
         cases: null,
-        dividend: {
-          data: null,
-          labels: null
-        }
+        charts: null
       }
     },
     components: {
@@ -43,8 +40,7 @@
     watch: {
       selectedCase: function (val) {
         this.get(this, '/api/Case', { 'id': val }, function (that, response) {
-          that.dividend.data = response.data
-          that.dividend.labels = response.labels
+          that.charts = response
         })
       }
     },

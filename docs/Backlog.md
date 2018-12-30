@@ -1,6 +1,4 @@
 
-
-- select a case and show a bar chart
-
-
-
+- have a store
+  - get cases from store
+  - get case data from store
