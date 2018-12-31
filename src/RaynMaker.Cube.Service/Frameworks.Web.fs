@@ -1,4 +1,4 @@
-﻿module RaynMaker.Cube.Frameworks
+﻿namespace RaynMaker.Cube.Frameworks
 
 module Httpd =
     open Suave

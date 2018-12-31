@@ -44,7 +44,9 @@
   <Import Project="$(FSharpTargetsPath)" />
   <ItemGroup>
     <Compile Include="AssemblyInfo.fs" />
+    <Compile Include="Entities.fs" />
     <Compile Include="Controllers.fs" />
+    <Compile Include="Storage.fs" />
     <Compile Include="Frameworks.Web.fs" />
     <Compile Include="Program.fs" />
     <None Include="App.config" />

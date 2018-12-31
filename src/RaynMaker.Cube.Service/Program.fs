@@ -39,6 +39,10 @@ let start storeHome =
     |> Seq.filter(fun x -> x.Id <> Process.GetCurrentProcess().Id)
     |> Seq.iter(fun x -> x.Kill())
     
+    printfn "Store: %s" storeHome
+
+    let cases = storeHome |> Storage.loadCases
+
     printfn "Starting ..."
 
     let app = 
@@ -55,9 +59,9 @@ let start storeHome =
                     path "/" >=> redirect "/Client/index.html"
                     pathScan "/Client/%s" (fun f -> Files.file (sprintf "%s/Client/%s" home f))
                     pathScan "/static/%s" (fun f -> Files.file (sprintf "%s/Client/static/%s" home f))
-                    path "/api/Explore" >=> warbler (fun _ -> Controllers.explore storeHome)
+                    path "/api/Explore" >=> warbler (fun _ -> Controllers.explore cases)
                     path "/api/Case" >=> warbler (fun c ->  match c.request.queryParam "id" with
-                                                            | Choice1Of2 id -> id |> Controllers.case storeHome
+                                                            | Choice1Of2 id -> id |> Controllers.case cases
                                                             | Choice2Of2 msg -> BAD_REQUEST msg)
                     NOT_FOUND "Resource not found."
                 ]

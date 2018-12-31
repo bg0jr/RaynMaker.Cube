@@ -3,6 +3,7 @@
 module Controllers =
     open System
     open Suave.Http
+    open RaynMaker.Cube.Entities
     
     [<AutoOpen>]
     module private Impl =
@@ -30,15 +31,12 @@ module Controllers =
         let formatCount = sprintf "%.2f"
         let formatPrice = sprintf "%.2f"
         
-    let explore storeHome = 
-        [
-            dict [ "id" => "US123"; "name" => "IBM" ]
-            dict [ "id" => "US789"; "name" => "Apple" ]
-            dict [ "id" => "DE456"; "name" => "Siemens" ]
-        ]
+    let explore cases = 
+        cases
+        |> List.map(fun case -> dict [ "id" => case.Isin; "name" => case.Name ])
         |> JSON
                         
-    let case storeHome id = 
+    let case cases id = 
         printfn "%s" id
         [
             dict [
