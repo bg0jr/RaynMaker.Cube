@@ -33,22 +33,21 @@ module Controllers =
         
     let explore cases = 
         cases
-        |> List.map(fun case -> dict [ "id" => case.Isin; "name" => case.Name ])
+        |> List.map(fun case -> dict [ "isin" => case.Isin; "name" => case.Name ])
         |> JSON
                         
-    let case cases id = 
-        printfn "%s" id
-        [
+    let case cases isin = 
+        printfn "Isin: %s" isin
+        cases
+        |> Seq.find(fun c -> c.Isin = isin)
+        |> fun c -> c.Figures
+        |> Seq.map(fun f ->
             dict [
-                "title" => "Dividend"
-                "labels" => [ "2010"; "2011"; "2012"; "2013"; "2014"; "2015"; "2016"; "2017"; "2018" ]
-                "data" => [ 2.0; 2.0; 2.1; 2.0; 2.2; 2.1; 2.3; 2.3; 2.4; ]
+                "title" => f.Name
+                "labels" => (f.Values |> Seq.sortBy(fun (k,_) -> k) |> Seq.map(fun (k,_) -> k |> sprintf "%i") |> List.ofSeq)
+                "data" => (f.Values |> Seq.sortBy(fun (k,_) -> k) |> Seq.map snd |> List.ofSeq)
             ]
-            dict [
-                "title" => "EPS"
-                "labels" => [ "2010"; "2011"; "2012"; "2013"; "2014"; "2015"; "2016"; "2017"; "2018" ]
-                "data" => [ 5.1; 5.1; 5.2; 5.4; 5.6; 6.0; 6.3; 6.8; 7.1; ]
-            ]
-        ]
+        )
+        |> List.ofSeq
         |> JSON
                         

@@ -6,7 +6,7 @@
       <label>Select a case: </label>
       <select v-model="selectedCase">
         <option disabled value="">Please select one</option>
-        <option v-for="c in cases" v-bind:value="c.id">
+        <option v-for="c in cases" v-bind:value="c.isin">
           {{ c.name }}
         </option>
       </select>
@@ -39,7 +39,7 @@
     },
     watch: {
       selectedCase: function (val) {
-        this.get(this, '/api/Case', { 'id': val }, function (that, response) {
+        this.get(this, '/api/Case', { 'isin': val }, function (that, response) {
           that.charts = response
         })
       }

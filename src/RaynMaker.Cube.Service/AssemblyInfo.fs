@@ -5,7 +5,7 @@ open System.Reflection
 [<assembly: AssemblyTitleAttribute("RaynMaker.Cube.Service")>]
 [<assembly: AssemblyProductAttribute("RaynMaker.Cube")>]
 [<assembly: AssemblyDescriptionAttribute("RaynMaker.Cube")>]
-[<assembly: AssemblyCopyrightAttribute("Copyright @ 2018")>]
+[<assembly: AssemblyCopyrightAttribute("Copyright @ 2019")>]
 [<assembly: AssemblyVersionAttribute("1.0")>]
 [<assembly: AssemblyFileVersionAttribute("1.0")>]
 do ()
@@ -14,6 +14,6 @@ module internal AssemblyVersionInformation =
     let [<Literal>] AssemblyTitle = "RaynMaker.Cube.Service"
     let [<Literal>] AssemblyProduct = "RaynMaker.Cube"
     let [<Literal>] AssemblyDescription = "RaynMaker.Cube"
-    let [<Literal>] AssemblyCopyright = "Copyright @ 2018"
+    let [<Literal>] AssemblyCopyright = "Copyright @ 2019"
     let [<Literal>] AssemblyVersion = "1.0"
     let [<Literal>] AssemblyFileVersion = "1.0"
