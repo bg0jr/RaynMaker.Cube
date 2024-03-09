@@ -1,0 +1,9 @@
+{
+  "name": "cube",
+  "version": "1.0.0",
+  "author": "bg0jr <bg0jr@shared-files.de>",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
