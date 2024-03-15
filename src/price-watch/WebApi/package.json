@@ -3,12 +3,17 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "node index.js",
-    "build": "vite build"
+    "dev": "nodemon dist/server.js --watch . --exec 'webpack --mode development && node'",
+    "build": "webpack --mode production"
   },
   "dependencies": {
     "axios": "^1.6.8",
     "cors": "^2.8.5",
     "express": "^4.18.3"
+  },
+  "devDependencies": {
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4",
+    "webpack-node-externals": "^3.0.0"
   }
 }
