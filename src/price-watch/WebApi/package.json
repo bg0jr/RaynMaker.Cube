@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nodemon dist/server.js --watch . --exec 'webpack --mode development && node'",
-    "build": "webpack --mode production"
+    "dev": "node index.js",
+    "build": "cd ../webui/ && npm run build && cd ../webapi/ && webpack --mode production"
   },
   "dependencies": {
     "axios": "^1.6.8",
