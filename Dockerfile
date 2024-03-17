@@ -1,5 +1,5 @@
 ARG NODE_VERSION=18.15.0
-FROM node:${NODE_VERSION}-alpine as build-stage
+FROM --platform=linux/arm64/v8 node:${NODE_VERSION}-alpine as build-stage
 
 ENV NODE_ENV development
 
@@ -21,7 +21,7 @@ WORKDIR /usr/src/app/WebApi/
 RUN npm run build
 
 
-FROM node:${NODE_VERSION}-alpine as production-stage
+FROM --platform=linux/arm64/v8 node:${NODE_VERSION}-alpine as production-stage
 
 COPY --from=build-stage /usr/src/app/WebApi/dist /usr/src/app/
 

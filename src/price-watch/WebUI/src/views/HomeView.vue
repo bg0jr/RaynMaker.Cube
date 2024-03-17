@@ -5,7 +5,7 @@ import { ref } from 'vue'
 const prices = ref([])
 
 const api = axios.create({
-    baseURL: 'http://localhost:8001'
+    baseURL: import.meta.env.MODE === 'production' ? window.location.origin : 'http://localhost:8001'
   })
 
 async function fetch() {
