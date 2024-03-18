@@ -45,7 +45,8 @@ app.get('/api/crypto', async (req, res) => {
     Object.keys(coinMarketCapIds).forEach((coin) =>
       prices.push({
         name: coin,
-        value: data.data[coinMarketCapIds[coin]].quote.EUR.price
+        value: data.data[coinMarketCapIds[coin]].quote.EUR.price,
+        currency: 'EUR'
       })
     )
   } catch (error) {
@@ -80,7 +81,11 @@ app.get('/api/stocks', async (req, res) => {
     })
 
     Object.keys(tickerSymbols).forEach((symbol) =>
-      prices.push({ name: symbol, value: data.data.find((x) => x.symbol === tickerSymbols[symbol]).close })
+      prices.push({
+        name: symbol,
+        value: data.data.find((x) => x.symbol === tickerSymbols[symbol]).close,
+        currency: "EUR"
+      })
     )
   } catch (error) {
     prices.push({ error: error.message })

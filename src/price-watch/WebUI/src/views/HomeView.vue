@@ -25,10 +25,12 @@ async function fetch() {
         <tr>
           <th>Name</th>
           <th>Price</th>
+          <th>Currency</th>
         </tr>
         <tr v-for="item in prices">
           <td>{{ item.name }}</td>
           <td class="value">{{ item.value?.toFixed(4) ?? item.error }}</td>
+          <td>{{ item.currency }}</td>
         </tr>
       </table>
     </div>
