@@ -24,13 +24,17 @@ async function fetch() {
       <table>
         <tr>
           <th>Name</th>
+          <th>Buying Price</th>
           <th>Price</th>
-          <th>Currency</th>
+          <th>Profit</th>
         </tr>
         <tr v-for="item in prices">
           <td>{{ item.name }}</td>
-          <td class="value">{{ item.value?.toFixed(4) ?? item.error }}</td>
-          <td>{{ item.currency }}</td>
+          <td>{{ item.buyingPrice }} {{ item.currency }}</td>
+          <td class="value">{{ item.value?.toFixed(4) ?? item.error }} {{ item.currency }}</td>
+          <td :class="isNaN(item.profit) ? '' : (item.profit > 0 ? 'green' : 'red')">
+            {{ isNaN(item.profit) ? '-' : item.profit.toFixed(2) }} %
+          </td>
         </tr>
       </table>
     </div>
@@ -44,7 +48,13 @@ th {
 td {
   padding-left: 10px;
 }
-.value{
+.value {
   text-align: right;
+}
+.green {
+  color: green;
+}
+.red {
+  color: red;
 }
 </style>

@@ -3,37 +3,30 @@ const path = require('path')
 
 const configHome = process.env.RAYNMAKER_CONFIG
 
-let config = {
-  coins: [],
-  stocks: []
-}
+// id is CoinMarketCap internal ID
+let coins = [
+  { name: 'Bitcoin', id: '1' },
+  { name: 'Etherium', id: '1027' },
+  { name: 'Cardano', id: '2010' }
+]
+
+let stocks = [{ name: 'Siemens', id: 'SIE.XETRA'}]
 
 if (configHome) {
   const fullPath = path.join(configHome, 'price-watch.json')
 
   if (fs.existsSync(fullPath)) {
     const rawData = fs.readFileSync(fullPath)
+    
     config = JSON.parse(rawData)
+    coins = config.coins
+    stocks = config.stocks
+
     console.log('Config loaded from', fullPath)
   } else {
     console.log('No configuration found at', fullPath)
   }
 }
-
-// id is CoinMarketCap internal ID
-const coins = {
-  Bitcoin: '1',
-  Etherium: '1027',
-  Cardano: '2010'
-}
-
-config.coins.forEach((x) => (coins[x.name] = x.id))
-
-const stocks = {
-  Siemens: 'SIE.XETRA'
-}
-
-config.stocks.forEach((x) => (stocks[x.name] = x.id))
 
 exports.coins = coins
 exports.stocks = stocks

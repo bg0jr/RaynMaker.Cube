@@ -1,7 +1,6 @@
 const express = require('express')
 const cors = require('cors')
 const axios = require('axios')
-const store = require('./store.js')
 
 const app = express()
 const port = 8001
@@ -18,23 +17,28 @@ app.get('/api/crypto', async (req, res) => {
     }
   })
 
+  const store = require('./store.js')
+
   const prices = []
 
   try {
     const { data } = await api.get('/v1/cryptocurrency/quotes/latest', {
       params: {
-        id: Object.values(store.coins).join(','),
+        id: store.coins.map((x) => x.id).join(','),
         convert: 'EUR'
       }
     })
 
-    Object.keys(store.coins).forEach((coin) =>
+    for (const coin of store.coins) {
+      const price = data.data[coin.id].quote.EUR.price
       prices.push({
-        name: coin,
-        value: data.data[store.coins[coin]].quote.EUR.price,
+        name: coin.name,
+        value: price,
+        buyingPrice: coin.buyingPrice ?? '-',
+        profit: coin.buyingPrice ? (price - coin.buyingPrice) / coin.buyingPrice * 100 : '-',
         currency: 'EUR'
       })
-    )
+    }
   } catch (error) {
     prices.push({ error: error.message })
   }
@@ -48,23 +52,27 @@ app.get('/api/stocks', async (req, res) => {
     withCredentials: false
   })
 
+  const store = require('./store.js')
   const prices = []
 
   try {
     const { data } = await api.get('/eod/latest', {
       params: {
         access_key: process.env.MARKETSTACK_API_KEY,
-        symbols: Object.values(store.stocks).join(',')
+        symbols: store.stocks.map((x) => x.id).join(',')
       }
     })
 
-    Object.keys(store.stocks).forEach((symbol) =>
+    for (const symbol of store.stocks) {
+      const price = data.data.find((x) => x.symbol === symbol.id).close
       prices.push({
-        name: symbol,
-        value: data.data.find((x) => x.symbol === store.stocks[symbol]).close,
-        currency: "EUR"
+        name: symbol.name,
+        value: price,
+        buyingPrice: symbol.buyingPrice ?? '-',
+        profit: symbol.buyingPrice ? (price - symbol.buyingPrice) / symbol.buyingPrice * 100 : '-',
+        currency: 'EUR'
       })
-    )
+    }
   } catch (error) {
     prices.push({ error: error.message })
   }
