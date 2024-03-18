@@ -1,6 +1,7 @@
 const express = require('express')
 const cors = require('cors')
 const axios = require('axios')
+const store = require('./store.js')
 
 const app = express()
 const port = 8001
@@ -17,35 +18,20 @@ app.get('/api/crypto', async (req, res) => {
     }
   })
 
-  const coinMarketCapIds = {
-    Bitcoin: 1,
-    Etherium: 1027,
-    Cardano: 2010,
-    Polygon: 3890,
-    Litecoin: 2,
-    Harmony: 3945,
-    Stellar: 512,
-    VeChain: 3077,
-    PolkaDot: 6636,
-    ChainLink: 1975,
-    Solana: 5426,
-    ImmutableX: 10603
-  }
-
   const prices = []
 
   try {
     const { data } = await api.get('/v1/cryptocurrency/quotes/latest', {
       params: {
-        id: Object.values(coinMarketCapIds).join(','),
+        id: Object.values(store.coins).join(','),
         convert: 'EUR'
       }
     })
 
-    Object.keys(coinMarketCapIds).forEach((coin) =>
+    Object.keys(store.coins).forEach((coin) =>
       prices.push({
         name: coin,
-        value: data.data[coinMarketCapIds[coin]].quote.EUR.price,
+        value: data.data[store.coins[coin]].quote.EUR.price,
         currency: 'EUR'
       })
     )
@@ -62,28 +48,20 @@ app.get('/api/stocks', async (req, res) => {
     withCredentials: false
   })
 
-  const tickerSymbols = {
-    BrookfieldRenewable: 'BEPC',
-    Nel: 'D7G.XFRA',
-    Siemens: 'SIE.XETRA',
-    SiemensEnergy: 'ENR.XETRA',
-    SiemensHealthineers: 'SHL.XFRA'
-  }
-
   const prices = []
 
   try {
     const { data } = await api.get('/eod/latest', {
       params: {
         access_key: process.env.MARKETSTACK_API_KEY,
-        symbols: Object.values(tickerSymbols).join(',')
+        symbols: Object.values(store.stocks).join(',')
       }
     })
 
-    Object.keys(tickerSymbols).forEach((symbol) =>
+    Object.keys(store.stocks).forEach((symbol) =>
       prices.push({
         name: symbol,
-        value: data.data.find((x) => x.symbol === tickerSymbols[symbol]).close,
+        value: data.data.find((x) => x.symbol === store.stocks[symbol]).close,
         currency: "EUR"
       })
     )
