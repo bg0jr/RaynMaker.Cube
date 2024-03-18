@@ -28,7 +28,7 @@ async function fetch() {
         </tr>
         <tr v-for="item in prices">
           <td>{{ item.name }}</td>
-          <td class="value">{{ item.value ?? item.error }}</td>
+          <td class="value">{{ item.value?.toFixed(4) ?? item.error }}</td>
         </tr>
       </table>
     </div>
