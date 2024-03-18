@@ -29,7 +29,7 @@ app.get('/api/crypto', async (req, res) => {
     PolkaDot: 6636,
     ChainLink: 1975,
     Solana: 5426,
-    ImmutableX: 3077
+    ImmutableX: 10603
   }
 
   const prices = []
