@@ -42,9 +42,14 @@ app.get('/api/crypto', async (req, res) => {
       }
     })
 
-    Object.keys(coinMarketCapIds).forEach((coin) => prices.push(`${coin}: ${data.data[coinMarketCapIds[coin]].quote.EUR.price}`))
+    Object.keys(coinMarketCapIds).forEach((coin) =>
+      prices.push({
+        name: coin,
+        value: data.data[coinMarketCapIds[coin]].quote.EUR.price
+      })
+    )
   } catch (error) {
-    prices.push(error.message)
+    prices.push({ error: error.message })
   }
 
   res.json(prices)
@@ -75,10 +80,10 @@ app.get('/api/stocks', async (req, res) => {
     })
 
     Object.keys(tickerSymbols).forEach((symbol) =>
-      prices.push(`${symbol}: ${data.data.find((x) => x.symbol === tickerSymbols[symbol]).close}`)
+      prices.push({ name: symbol, value: data.data.find((x) => x.symbol === tickerSymbols[symbol]).close })
     )
   } catch (error) {
-    prices.push(error.message)
+    prices.push({ error: error.message })
   }
 
   res.json(prices)
