@@ -1,9 +1,18 @@
 const express = require('express')
 const cors = require('cors')
 const axios = require('axios')
+const fs = require('fs')
+const https = require('https')
+
+const configHome = process.env.RAYNMAKER_CONFIG
+const key = fs.readFileSync(`${configHome}/selfsigned.key`);
+const cert = fs.readFileSync(`${configHome}/selfsigned.crt`);
 
 const app = express()
+const server = https.createServer({key: key, cert: cert }, app);
+
 const port = 8001
+const httpsPort = 8002
 
 app.use(express.static('public'))
 app.use(cors())
@@ -82,4 +91,8 @@ app.get('/api/stocks', async (req, res) => {
 
 app.listen(port, () => {
   console.log(`Listening at http://localhost:${port}`)
+})
+
+server.listen(httpsPort, function () {
+  console.log(`Listening at https://localhost:${httpsPort}`)
 })
