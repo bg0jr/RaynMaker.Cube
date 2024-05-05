@@ -5,20 +5,22 @@ ENV NODE_ENV development
 
 WORKDIR /usr/src/app
 
+RUN npm install -g pnpm
+
 COPY src/price-watch/WebUI/package.json ./WebUI/
-RUN npm install --prefix ./WebUI/
+RUN pnpm install --prefix ./WebUI/
 
 COPY src/price-watch/WebApi/package.json ./WebApi/
-RUN npm install --prefix ./WebApi/
+RUN pnpm install --prefix ./WebApi/
 
 COPY src/price-watch/WebApi ./WebApi/
 COPY src/price-watch/WebUI ./WebUI/
 
 WORKDIR /usr/src/app/WebUI/
-RUN npm run build 
+RUN pnpm run build 
 
 WORKDIR /usr/src/app/WebApi/
-RUN npm run build
+RUN pnpm run build
 
 
 FROM --platform=linux/arm64/v8 alpine as production-stage
